@@ -1,0 +1,66 @@
+html {
+  font-family: sans-serif;
+}
+
+.stage:after {
+  display: table;
+  content: ".";
+  clear: both;
+}
+
+.stage.winner {
+  background: green;
+}
+
+.reset {
+  background: gray;
+}
+
+.status {
+  width: 300px;
+  border: 1px solid black;
+  float: left;
+  height: 300px;
+}
+
+.status div {
+  border: 1px solid black;
+}
+
+.board {
+  display: table;
+  background: black;
+  width: 300px;
+  float: left;
+}
+
+.row {
+  display: table-row;
+}
+
+.square {
+  display: table-cell;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+.square.current {
+  background: blue !important;
+}
+
+.square.ladder {
+  background: green;
+}
+
+.square.snake {
+  background: red;
+}
+
+.roll {
+  cursor: pointer;
+  background: blue;
+  color: white;
+  padding: 10px;
+}
