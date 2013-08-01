@@ -1,0 +1,4 @@
+1) Finish the student version.
+2) Add 8-ball graphics to both student and teacher version (possibly some animation).
+3) Split should be fairly straight-forward. Have all the CSS and HTML given and tell students to fill in the #answer element with their fortune.
+4) Provide a list of possible fortunes like the one I found, but definitely encourage students to make up their own!
