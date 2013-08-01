@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meal Calculator</title>
+		
+		<!--  - DO NOT ALTER THESE-->
+		<script src="_base/javascripts/jquery.js"></script>
+		<script src="_base/bootstrap/javascript/bootstrap.js"></script>
+		
+		<link rel="stylesheet" href="_base/bootstrap/css/bootstrap.css"></link>
+		<link rel="stylesheet" href="_base/styles/scripted_base.css"></link>
+	
+	    <!-- YOUR STYLES -->
+		<link rel="stylesheet" type="text/css" href="_base/styles/styles.css"></link>
+        <!-- YOUR JAVASCRIPT -->
+<script>
+			$(document).ready(function() {
+				$("#calculateButton").click(function(){
+					var taxPercentageValue = $("#taxPercentage").val();
+					var taxPercentage = parseFloat(taxPercentageValue);
+					
+					var tipPercentageValue = $("#tipPercentage").val();
+					var tipPercentage = parseFloat(tipPercentageValue);
+
+					var mealOnePriceValue = $("#mealOnePrice").val();
+					var mealOnePrice = parseFloat(mealOnePriceValue);
+
+					var mealTwoPriceValue = $("#mealTwoPrice").val();
+					var mealTwoPrice = parseFloat(mealTwoPriceValue);
+					
+					var mealThreePriceValue = $("#mealThreePrice").val();
+					var mealThreePrice = parseFloat(mealThreePriceValue);
+
+					var mealOneTax = mealOnePrice * taxPercentage;
+					var mealTwoTax = mealTwoPrice * taxPercentage;
+					var mealThreeTax = mealThreePrice * taxPercentage;
+
+					var mealOneTip = mealOnePrice * tipPercentage;
+					var mealTwoTip = mealTwoPrice * tipPercentage;
+					var mealThreeTip = mealThreePrice * tipPercentage;
+
+					var mealOneTotal = mealOnePrice + mealOneTax + mealOneTip;
+					var mealTwoTotal = mealTwoPrice + mealTwoTax + mealTwoTip;
+					var mealThreeTotal = mealThreePrice + mealThreeTax + mealThreeTip;
+
+					var totalTax = mealOneTax + mealTwoTax + mealThreeTax;
+					var totalTip = mealOneTip + mealTwoTip + mealThreeTip;
+					var total = mealOneTotal + mealTwoTotal + mealThreeTotal;
+					
+					$("#totalTax").val(totalTax.toFixed(2));
+					$("#totalTip").val(totalTip.toFixed(2));
+					$("#total").val(total.toFixed(2));
+					$("#mealOneTotal").val(mealOneTotal.toFixed(2));
+					$("#mealTwoTotal").val(mealTwoTotal.toFixed(2));
+					$("#mealThreeTotal").val(mealThreeTotal.toFixed(2));
+
+				});
+			
+			});
+		</script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Input</legend>
+				<p><label for="taxPercentage">Tax Percentage</label> <input id="taxPercentage" type="text" value="0.0875"/></p>
+				<p><label for="tipPercentage">Tip Percentage</label> <input id="tipPercentage" type="text" value="0.20"/></p>
+				<p><label for="mealOnePrice">Meal One Price</label> <input id="mealOnePrice" type="text" value="6.50"/></p>
+				<p><label for="mealTwoPrice">Meal Two Price</label> <input id="mealTwoPrice" type="text" value="7.25"/></p>
+				<p><label for="mealThreePrice">Meal Three Price</label> <input id="mealThreePrice" type="text" value="8.00"/></p>
+				
+				<button id="calculateButton" type="button">Calculate Totals</button>
+
+				</fieldset>
+			<fieldset>
+				<legend>Results</legend>
+				<p><label for="totalTax">Total Tax</label> <input id="totalTax" type="text"/></p>
+				<p><label for="totalTip">Total Tip</label> <input id="totalTip" type="text"/></p>
+				<p><label for="total">Total</label> <input id="total" type="text"/></p>
+				<p><label for="mealOneTotal">Meal One Total</label> <input id="mealOneTotal" type="text"/></p>
+				<p><label for="mealTwoTotal">Meal Two Total</label> <input id="mealTwoTotal" type="text"/></p>
+				<p><label for="mealThreeTotal">Meal Three Total</label> <input id="mealThreeTotal" type="text"/></p>
+			</fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+Teacher's Notes
+
+Discuss how tips and tax are calculated (note that they are not calculated for the purposes of this project the same way you would in real life).
+
+Order of Operations
+
+P
+	Parentheses first
+E
+	Exponents (ie Powers and Square Roots, etc.)
+MD
+	Multiplication and Division (left-to-right)
+AS
+	Addition and Subtraction (left-to-right)
+	
+parseFloat: Parses a string argument and returns a floating point number.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat
+
+.val():  Get the current value of the first element in the set of matched elements or set the value of every matched element.
+http://api.jquery.com/val/
