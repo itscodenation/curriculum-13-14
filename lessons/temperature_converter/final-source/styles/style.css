@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  font-family: 'Bubblegum Sans', cursive;
+  background-image: url("../img/temperature.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+h1{
+  font-size: 50px;
+  background: rgba(255, 255, 255, .8);
+}
+
+#input-area {
+  margin: 20px;
+}
+
+#degrees {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 24px;
+  height: 30px;
+  width: 200px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+select {
+  font-family: 'Bubblegum Sans', cursive;
+  height: 35px;
+  width: 150px;
+  padding: 5px;
+  font-size: 24px;
+  line-height: 2;
+  border-radius: 10px;
+
+}
+
+.button {
+  font-size: 40px;
+  font-family: 'Bubblegum Sans', cursive;
+  margin: 20px;
+  padding: 10px 15px;
+  background: #4479BA;
+  color: #FFF;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  border: solid 1px #20538D;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover, .button:focus {
+  background: #356094;
+  border: solid 1px #2A4E77;
+  text-decoration: none;
+}
+

@@ -11,30 +11,55 @@ function convertCToF(degreesC){
   return degreesF;
 }
 
-function getNewTemperature(){
-  var degrees = prompt("What is the temperature? (Enter a number in degrees)");
-  var temperatureScale = prompt("What is the temperature scale are you using? (Enter f for Fahrenheit or c for Celsius)");
-  console.log(temperatureScale);
+function convertTemperature(){
+  var degrees = $("#degrees").val();
+  var temperatureScale = $("#temperature-scale").val();
 
-  if (temperatureScale === "f" || temperatureScale === "F"){
-    convertedDegrees = convertFToC(degrees).toFixed(2);
+  if (temperatureScale === "F"){
+    convertedDegrees = convertFToC(degrees).toFixed(1);
     convertedScale = "Celsius";
-    message = degrees + " degrees "+ temperatureScale + " = " + convertedDegrees + " degrees " + convertedScale;
-
-  }
-  else if (temperatureScale === "c" || temperatureScale === "C"){
-    convertedDegrees = convertCToF(degrees).toFixed(2);
-    convertedScale = "Fahrenheit";
-    message = degrees + " degrees "+ temperatureScale + " = " + convertedDegrees + " degrees " + convertedScale;
   }
   else {
-    message = "Try again!";
+    convertedDegrees = convertCToF(degrees).toFixed(1);
+    convertedScale = "Fahrenheit";
   }
+
+  message = "Your converted temperature is " + convertedDegrees + "° " + convertedScale;
   $("#conversion").text(message);
+
+  changeBackground();
+}
+
+// DON'T TOUCH THIS
+function changeBackground(){
+  var degreesF;
+  if (convertedScale === "Celsius"){
+    degreesF = convertCToF(convertedDegrees);
+  }
+  else {
+    degreesF = convertedDegrees;
+  }
+
+  if(degreesF <= 40){
+    $("body").css("background-image","url('img/snow.jpg')");
+  }
+  else if (degreesF <= 60){
+    $("body").css("background-image","url('img/fall.jpg')");
+  }
+  else if (degreesF <= 80){
+    $("body").css("background-image","url('img/spring.jpg')");
+  }
+  else if (degreesF <= 110){
+    $("body").css("background-image","url('img/beach.jpg')");
+  }
+  else {
+    $("body").css("background-image","url('img/volcano.jpg')");
+  }
+
 
 }
 
 $(function(){
-  $("#newTemp").click(getNewTemperature);
+  $("#convert-button").click(convertTemperature);
 });
 
