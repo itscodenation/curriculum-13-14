@@ -55,8 +55,6 @@ function changeBackground(){
   else {
     $("body").css("background-image","url('img/volcano.jpg')");
   }
-
-
 }
 
 $(function(){
