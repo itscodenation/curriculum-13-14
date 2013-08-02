@@ -1,0 +1,68 @@
+<head>
+	<script src="javascript/jquery.js"></script>
+	<script src="javascript/atm.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/atm.css">
+</head>
+
+<body>
+	<html>
+	<div class="atmWindow">
+	  <h1>Welcome to the ScriptEd ATM</h1>
+	  
+	  <div class="left">
+	  	<button type="button" class="btn" id="withdraw">Withdrawal</button>
+	  	<button type="button" class="btn" id="deposit">Deposit</button>
+	  </div>
+	  <div class="right">
+	  	<button type="button" class="btn" id="balance">Balance Inquiry</button>
+	  	<button type="button" class="btn" id="exit">Exit</button>
+	  </div>
+	  <div class="middle">
+	  	<div class="display">What Operation Would You Like to Perform?</div>
+	  	<div class="valueinput">
+	  		<input type="text" id="valueinput" class="amountinput">
+	  		<div class="inputButtons">
+	  			<button type="submit" id="clear">Clear</button>
+	  			<button type="submit" id="submit">Enter</button>
+	  		</div>
+	  	</div>
+	  </div>
+
+	</html>
+</body>
+
+<script>
+$("#withdraw").click(function() {
+	$(".display").html("How much would you like to withdraw?");
+	operation = 1;
+});
+
+$("#deposit").click(function() {
+	$(".display").html("How much would you like to deposit?");
+	operation = 2;
+});
+
+$( "#balance" ).click(function() {
+	operation = 0;
+ 	displayBalance(balance);
+});
+
+$("#exit").click(function() {
+	$(".display").html("Thank you for using the ScriptEd ATM");
+	$(".btn").attr('disabled', true);
+	operation = 0;
+});
+
+$("#submit").click(function() {
+	if(operation == 1){
+		GetWithdrawal();
+	}
+	if(operation == 2){
+		GetDeposit();
+	}	
+});
+
+$("#clear").click(function() {
+	$("#valueinput").val("");
+});
+</script>

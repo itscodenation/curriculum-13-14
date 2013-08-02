@@ -1,0 +1,5 @@
+Pretty up UI.
+Clean up code/variable use.
+Add animation.
+Determine exactly the best way to split this between what I've built and
+what the kids will build.

@@ -1,0 +1,47 @@
+.atmWindow{
+	background-color: #d0e4fe;
+	width: 600px;
+	height: 400px;
+	margin:0 auto;
+}
+h1{
+	text-align:center;
+}
+
+.btn {
+  display: block;
+  width: 120px;
+  padding: 8px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.left{
+	float: left;
+	display: inline-block;
+}
+
+.right{
+	float: right;
+	display: inline-block;
+}
+
+.middle{
+	margin:0 auto;
+	display: inline-block;
+	width: 360px;
+	text-align: center;
+}
