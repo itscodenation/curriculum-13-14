@@ -13,7 +13,7 @@
 	    <!-- YOUR STYLES -->
 		<link rel="stylesheet" type="text/css" href="_base/styles/styles.css"></link>
         <!-- YOUR JAVASCRIPT -->
-<script>
+		<script>
 			$(document).ready(function() {
 				$("#calculate-button").click(function(){
 					var tax_percentage_value = $("#tax-percentage").val();
@@ -43,12 +43,8 @@
 					var meal_two_total = meal_two_price + meal_two_tax + meal_two_tip;
 					var meal_three_total = meal_three_price + meal_three_tax + meal_three_tip;
 
-					var total_tax = meal_one_tax + meal_two_tax + meal_three_tax;
-					var total_tip = meal_one_tip + meal_two_tip + meal_three_tip;
 					var total = meal_one_total + meal_two_total + meal_three_total;
 					
-					$("#total-tax").val(total_tax.toFixed(2));
-					$("#total-tip").val(total_tip.toFixed(2));
 					$("#total").val(total.toFixed(2));
 					$("#meal-one-total").val(meal_one_total.toFixed(2));
 					$("#meal-two-total").val(meal_two_total.toFixed(2));
@@ -62,25 +58,26 @@
 	<body>
 		<form>
 			<fieldset>
-				<legend>Input</legend>
+				<legend>Tax & Tip %</legend>
 				<p><label for="tax-percentage">Tax Percentage</label> <input id="tax-percentage" type="text" value="0.0875"/></p>
 				<p><label for="tip-percentage">Tip Percentage</label> <input id="tip-percentage" type="text" value="0.20"/></p>
-				<p><label for="meal-one-price">Meal One Price</label> <input id="meal-one-price" type="text" value="6.50"/></p>
-				<p><label for="meal-two-price">Meal Two Price</label> <input id="mealtwo-price" type="text" value="7.25"/></p>
-				<p><label for="meal-three-price">Meal Three Price</label> <input id="meal-three-price" type="text" value="8.00"/></p>
-				
-				<button id="calculate-button" type="button">Calculate Totals</button>
-
-				</fieldset>
+			</fieldset>
 			<fieldset>
-				<legend>Results</legend>
-				<p><label for="total-tax">Total Tax</label> <input id="total-tax" type="text"/></p>
-				<p><label for="total-tip">Total Tip</label> <input id="total-tip" type="text"/></p>
-				<p><label for="total">Total</label> <input id="total" type="text"/></p>
+				<legend>Meal Price</legend>
+				<p><label for="meal-one-price">Meal One Price</label> <input id="meal-one-price" type="text" value="6.50"/></p>
+				<p><label for="meal-two-price">Meal Two Price</label> <input id="meal-two-price" type="text" value="7.25"/></p>
+				<p><label for="meal-three-price">Meal Three Price</label> <input id="meal-three-price" type="text" value="8.00"/></p>
+			</fieldset>
+			<fieldset>
+				<legend>Meal w/ Tax & Tip</legend>
 				<p><label for="meal-one-total">Meal One Total</label> <input id="meal-one-total" type="text"/></p>
 				<p><label for="meal-two-total">Meal Two Total</label> <input id="meal-two-total" type="text"/></p>
 				<p><label for="meal-three-total">Meal Three Total</label> <input id="meal-three-total" type="text"/></p>
+				<p><label for="total">Total</label> <input id="total" type="text"/></p>
 			</fieldset>
+			<div class="button-wrapper">
+				<button id="calculate-button" type="button">Calculate Totals</button>
+			</div>
 		</form>
 	</body>
 </html>
