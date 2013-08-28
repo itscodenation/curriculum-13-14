@@ -2,6 +2,13 @@
 
 #####Introduction (15 Minutes) 
 During your first lesson with the students you should introduce them to ScriptEd.  
+
+Ask all Students to sign in using the following link:
+
+http://www.scripted.org/attendance.html
+
+Students are required to log-in to class whenever they attend.
+
 - Classes will be held twice a week. 
 - Students will learn the fundamentals of HTML, CSS and Javascript
 - The point of the club is to prepare students for internships with technology firms over the summer.
