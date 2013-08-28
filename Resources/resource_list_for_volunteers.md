@@ -29,9 +29,7 @@
 - [How to write better commit messages](http://robots.thoughtbot.com/post/48933156625/5-useful-tips-for-a-better-commit-message) - Good to get students in the habit of writing good commit messages even though no one will ever actually do this right. Could be impressive in a job interview though. 
 
 
-###Python
 
-###Ruby
 
 ### General Teaching Tools
 
