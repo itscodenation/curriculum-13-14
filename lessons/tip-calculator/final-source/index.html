@@ -14,44 +14,50 @@
 		<link rel="stylesheet" type="text/css" href="_base/styles/styles.css"></link>
         <!-- YOUR JAVASCRIPT -->
 		<script>
-			$(document).ready(function() {
-				$("#calculate-button").click(function(){
-					var tax_percentage_value = $("#tax-percentage").val();
-					var tax_percentage = parseFloat(tax_percentage_value);
-					
-					var tip_percentage_value = $("#tip-percentage").val();
-					var tip_percentage = parseFloat(tip_percentage_value);
+			$(document).ready(function () {
 
-					var meal_one_price_value = $("#meal-one-price").val();
-					var meal_one_price = parseFloat(meal_one_price_value);
+			    get_val = function (sel) {
+			        value = $(sel).val();
+			        return parseFloat(value);
+			    };
 
-					var meal_two_price_value = $("#meal-two-price").val();
-					var meal_two_price = parseFloat(meal_two_price_value);
-					
-					var meal_three_price_value = $("#meal-three-price").val();
-					var meal_three_price = parseFloat(meal_three_price_value);
+			    cashify = function (sel, fill) {
+			        return $(sel).val(fill.toFixed(2));
+			    };
 
-					var meal_one_tax = meal_one_price * tax_percentage;
-					var meal_two_tax = meal_two_price * tax_percentage;
-					var meal_three_tax = meal_three_price * tax_percentage;
+			    $("#calculate-button").click(function () {
 
-					var meal_one_tip = meal_one_price * tip_percentage;
-					var meal_two_tip = meal_two_price * tip_percentage;
-					var meal_three_tip = meal_three_price * tip_percentage;
+			        var tax_percentage = get_val("#tax-percentage");
 
-					var meal_one_total = meal_one_price + meal_one_tax + meal_one_tip;
-					var meal_two_total = meal_two_price + meal_two_tax + meal_two_tip;
-					var meal_three_total = meal_three_price + meal_three_tax + meal_three_tip;
+			        var tip_percentage = get_val("#tip-percentage");
 
-					var total = meal_one_total + meal_two_total + meal_three_total;
-					
-					$("#total").val(total.toFixed(2));
-					$("#meal-one-total").val(meal_one_total.toFixed(2));
-					$("#meal-two-total").val(meal_two_total.toFixed(2));
-					$("#meal-three-total").val(meal_three_total.toFixed(2));
+			        var meal_one_price = get_val("#meal-one-price");
 
-				});
-			
+			        var meal_two_price = get_val("#meal-two-price");
+
+			        var meal_three_price = get_val("#meal-three-price");
+
+			        var meal_one_tax = meal_one_price * tax_percentage;
+			        var meal_two_tax = meal_two_price * tax_percentage;
+			        var meal_three_tax = meal_three_price * tax_percentage;
+
+			        var meal_one_tip = meal_one_price * tip_percentage;
+			        var meal_two_tip = meal_two_price * tip_percentage;
+			        var meal_three_tip = meal_three_price * tip_percentage;
+
+			        var meal_one_total = meal_one_price + meal_one_tax + meal_one_tip;
+			        var meal_two_total = meal_two_price + meal_two_tax + meal_two_tip;
+			        var meal_three_total = meal_three_price + meal_three_tax + meal_three_tip;
+
+			        var total = meal_one_total + meal_two_total + meal_three_total;
+
+			        cashify("#total", total);
+			        cashify("#meal-one-total", meal_one_total);
+			        cashify("#meal-two-total", meal_two_total);
+			        cashify("#meal-three-total", meal_three_total);
+
+			    });
+
 			});
 		</script>
 	</head>
