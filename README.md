@@ -5,6 +5,8 @@ ScriptEd Foundations Curriculum
 
 [Teacher Resources](Resources/)
 
+[Student Rubric](http://bit.ly/ScriptEdCurriculum)
+
 ######First Semester
 [Lesson 01 - Introduction to ScriptEd, Processing, Khanacademy](lessons/01_Introductory Lesson)	
 [Lesson 02   Directory Structures, Using a Text Editor](lessons/02_Directory_Structures)
@@ -16,7 +18,3 @@ ScriptEd Foundations Curriculum
 [Lesson 10	Tip Calculator Day 2](lessons/09-11_tip-calculator)[Lesson 11	Tip Calculator, Day 3](lessons/09-11_tip-calculator)	[Lesson 12	Mad Libs Day 1]()[Lesson 13	Mad Libs Day 2]()
 
 [Lesson 14	String Manipulation Day 1](lessons/014-15_substring)[Lesson 15	String Manipulation Day 2](lessons/014-15_substring)[Lesson 16	Number Guesser Day 1]()	[Lesson 17	Number Guesser Day 2]()	[Lesson 18	Magic 8 Ball Day 1	Introduction to Arrays](lessons/18-19_magic_8_ball)[Lesson 19	Magic 8 Ball Day 2	Introduction to Arrays](lessons/18-19_magic_8_ball)[Lesson 20	ATM - Introduction to Hashes and Functions](lessons/20-21_atm)[Lesson 21	ATM - Introduction to Hashes and Functions](lessons/20-21_atm)
-
-####Please visit this link to view our rubric: 
-
-http://bit.ly/ScriptEdCurriculum
