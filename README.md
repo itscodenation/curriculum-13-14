@@ -5,11 +5,11 @@ ScriptEd Foundations Curriculum
 
 
 ######First Semester
-[Lesson 01 - Introduction to ScriptEd, Processing, Khanacademy](lessons/01_Introductory_Lesson)	
+[Lesson 01 - Introduction to ScriptEd, Processing, Khanacademy](lessons/01_Introductory Lesson)	
 [Lesson 02   Directory Structures, Using a Text Editor](lessons/02_Directory_Structures)
 	[Lesson 03	Intro to Version Control / Github](lessons/03_Intro_to_version_control)	
-[Lesson 04	HTML 1](lessons/04_07_html_css)	
-[Lesson 05	CSS 1](lessons/04_07_html_css)	[Lesson 06	HTML 2](lessons/04_07_html_css)	[Lesson 07	CSS 2](lessons/04_07_html_css)	[Lesson 08	Color Block Lesson	HTML and CSS Project](lessons/08_color_block_lesson)
+[Lesson 04	HTML 1](lessons/04-07_html_css)	
+[Lesson 05	CSS 1](lessons/04-07_html_css)	[Lesson 06	HTML 2](lessons/04-07_html_css)	[Lesson 07	CSS 2](lessons/04-07_html_css)	[Lesson 08	Color Block Lesson	HTML and CSS Project](lessons/08_color_block_lesson)
 
 [Lesson 09	Tip Calculator](lessons/09-11_tip-calculator)
 [Lesson 10	Tip Calculator Day 2](lessons/09-11_tip-calculator)[Lesson 11	Tip Calculator, Day 3](lessons/09-11_tip-calculator)	[Lesson 12	Mad Libs Day 1]()[Lesson 13	Mad Libs Day 2]()
