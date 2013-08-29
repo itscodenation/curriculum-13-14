@@ -16,27 +16,31 @@
         <!-- YOUR JAVASCRIPT -->
 		<script>
 			$(document).ready(function() {
+
+			    get_val = function (sel) {
+			        value = $(sel).val();
+			        return parseFloat(value);
+			    };
+
+			    cashify = function (sel, fill) {
+			        return $(sel).val(fill.toFixed(2));
+			    };
+
 				$("#calculate-button").click(function(){
-					var tax_percentage_value = $("#tax-percentage").val();
-					var tax_percentage = parseFloat(tax_percentage_value);
-					
-					var tip_percentage_value_meal_one = $("#tip-percentage-meal-one").val();
-					var tip_percentage_meal_one = parseFloat(tip_percentage_value_meal_one);
-					
-					var tip_percentage_value_meal_two = $("#tip-percentage-meal-two").val();
-					var tip_percentage_meal_two = parseFloat(tip_percentage_value_meal_two);
-					
-					var tip_percentage_value_meal_three = $("#tip-percentage-meal-three").val();
-					var tip_percentage_meal_three = parseFloat(tip_percentage_value_meal_three);
 
-					var meal_one_price_value = $("#meal-one-price").val();
-					var meal_one_price = parseFloat(meal_one_price_value);
-
-					var meal_two_price_value = $("#meal-two-price").val();
-					var meal_two_price = parseFloat(meal_two_price_value);
+			                var tax_percentage = get_val("#tax-percentage");
 					
-					var meal_three_price_value = $("#meal-three-price").val();
-					var meal_three_price = parseFloat(meal_three_price_value);
+					var tip_percentage_meal_one = get_val("#tip-percentage-meal-one");
+					
+					var tip_percentage_meal_two = get_val("#tip-percentage-meal-one");
+					
+					var tip_percentage_meal_three = get_val("#tip-percentage-meal-one");
+
+					var meal_one_price = get_val("#meal-one-price");
+
+					var meal_two_price = get_val("#meal-two-price");
+
+					var meal_three_price = get_val("#meal-three-price");
 
 					var meal_one_tax = meal_one_price * tax_percentage;
 					var meal_two_tax = meal_two_price * tax_percentage;
@@ -52,10 +56,11 @@
 
 					var total = meal_one_total + meal_two_total + meal_three_total;
 					
-					$("#total").val(total.toFixed(2));
-					$("#meal-one-total").val(meal_one_total.toFixed(2));
-					$("#meal-two-total").val(meal_two_total.toFixed(2));
-					$("#meal-three-total").val(meal_three_total.toFixed(2));
+					cashify("#total", total);
+					cashify("#meal-one-total", meal_one_total);
+					cashify("#meal-two-total", meal_two_total);
+					cashify("#meal-three-total", meal_three_total);
+
 
 				});
 			
