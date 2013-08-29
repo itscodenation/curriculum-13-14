@@ -3,6 +3,7 @@ ScriptEd Foundations Curriculum
 
 ####Outline of Curriculum:
 
+[Teacher Resources](resources)
 
 ######First Semester
 [Lesson 01 - Introduction to ScriptEd, Processing, Khanacademy](lessons/01_Introductory Lesson)	
