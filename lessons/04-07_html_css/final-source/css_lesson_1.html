@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Introduction to CSS</title>
+    <style>
+      .outer {
+        background: blue;
+        padding: 20px;
+      }
+
+      .inner {
+        background: black;
+        margin: 10px;
+        min-height: 10px;
+        text-align: center;
+      }
+
+      #text {
+        color: red;
+      }
+
+      #robot {
+        color: gray;
+        font-family: monospace;
+        text-transform: uppercase;
+      }
+
+      div span {
+        font-size: 30pt;
+        color: white;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="outer">
+      <div id="1" class="inner"><span id="text">Hello! I'm just some text on a page.</span></div>
+      <div id="2" class="inner"><span>I'm some other text!</span></div>
+      <div id="3" class="inner"><span>I'm some other text!</span></div>
+      <div id="1" class="inner"><span id="robot">Greetings, human! I am robot text.</span></div>
+    </div>
+  </body>
+</html>
