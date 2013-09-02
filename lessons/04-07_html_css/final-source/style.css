@@ -1,0 +1,26 @@
+.outer {
+  background: blue;
+  padding: 20px;
+}
+
+.inner {
+  background: black;
+  margin: 10px;
+  min-height: 10px;
+  text-align: center;
+}
+
+#text {
+  color: red;
+}
+
+#robot {
+  color: gray;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+div span {
+  font-size: 30pt;
+  color: white;
+}
