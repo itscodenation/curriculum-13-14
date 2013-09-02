@@ -44,7 +44,7 @@ Have students open a markup editor and, on the first line type:
  You now have a basic html page! Next, you have to signify the beginning and the end of your document. To do this:
  	<html>
  	</html>
-Everything in your html page has to go between these two tags. You will be seeing tags a lot in html, so let's talk briefly abotu what they are: 
+Everything in your html page has to go between these two tags. You will be seeing tags a lot in html, so let's talk briefly about what they are: 
 * Tags are words (tag names) surrounded by brackets, e.g., `<html>`
 * Tags allow you to "markup" a web page. This lets a browswer know how to display the content
 * Most tag names give you a hint as to what the tag means. For example `<p>` for paragraph, `<style>` for styling, `<ul>` for an unordered list
