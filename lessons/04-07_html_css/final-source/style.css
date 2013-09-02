@@ -1,26 +1,23 @@
-.outer {
+#intro {
   background: blue;
   padding: 20px;
 }
 
-.inner {
+#intro p {
   background: black;
   margin: 10px;
   min-height: 10px;
   text-align: center;
+  font-size: 30pt;
+  color: white;
 }
 
-#text {
+#intro .emphasis {
   color: red;
 }
 
-#robot {
+.robot {
   color: gray;
   font-family: monospace;
   text-transform: uppercase;
-}
-
-div span {
-  font-size: 30pt;
-  color: white;
 }
