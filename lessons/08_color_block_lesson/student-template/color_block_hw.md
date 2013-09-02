@@ -1,0 +1,5 @@
+###Color Block Homework Assignment Create a file called “[yourname]colorblockhw.html”, and complete the following problems.  You can use the code in the HTML page you completed in class to help you out. 1) Try putting three ‘children’ in the parent element by positioning them absolutely.  Your screen should look something like this (the blocks don’t need to be in a row, but there need to be three blocks in the parent element):![Alt text](imgs/Q1.png)2) What happens if you set a child elements’ left, right, top AND bottom (but NOT width or height)? Write your answer at THE END of your HTML Document
+###Bonus Problems
+1) Create a webpage that looks like this (you can use whatever colors you want!). You can save it as “[yourname]colorblockhw2.html”
+![Alt text](imgs/Bonus1.png)2) Now, create a webpage that looks like this.  You can save it as “[yourname]colorblockhw3.html”![Alt text](imgs/Bonus2.png)
+3) Get creative!  Make a file with as many blocks and colors as you want.  You can save it as “[yourname]colorblockhw4.html”

@@ -1,0 +1,50 @@
+<html>
+  <head>
+		<!--  - DO NOT ALTER THESE-->
+
+    <!-- BASE STYLES -->
+    <link rel="stylesheet" href="_base/bootstrap/css/bootstrap.css"></link>
+    <link rel="stylesheet" href="_base/styles/scripted_base.css"></link>
+
+    <!-- BASE JAVASCRIPT -->
+		<script src="_base/javascripts/jquery.js"></script>
+		<script src="_base/bootstrap/javascript/bootstrap.js"></script>
+    
+    <!-- YOUR STYLES -->
+    <link rel="stylesheet" href="_base/styles/8ball.css"></link>
+
+    <!-- YOUR JAVASCRIPT -->
+    <script src="_base/javascripts/8ball.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="button-holder">
+
+            <button id="fortune-reader" class="btn-primary" onclick="getFortune()">Read My Fortune!</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <div class="question-holder">
+
+            <input type="text" id="question" style="width:100%;" placeholder="Enter a question here to have your fortune read."></textbox>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <h1 id="answer"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

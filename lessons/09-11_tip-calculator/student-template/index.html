@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meal Calculator</title>
+		
+		<!--  - DO NOT ALTER THESE-->
+		<script src="_base/javascripts/jquery.js"></script>
+		<script src="_base/bootstrap/javascript/bootstrap.js"></script>
+		
+		<link rel="stylesheet" href="_base/bootstrap/css/bootstrap.css"></link>
+		<link rel="stylesheet" href="_base/styles/scripted_base.css"></link>
+	
+	    <!-- STYLES -->
+		<link rel="stylesheet" type="text/css" href="_base/styles/styles.css"></link>
+        <!-- JAVASCRIPT -->
+		<script>
+			$(document).ready(function () {
+
+			    get_val = function (sel) {
+			        value = $(sel).val();
+			        return parseFloat(value);
+			    };
+
+			    cashify = function (sel, fill) {
+			        return $(sel).val(fill.toFixed(2));
+			    };
+
+			    $("#calculate-button").click(function () {
+
+        // YOUR JAVASCRIPT HERE
+			    });
+
+			});
+		</script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Tax & Tip %</legend>
+				<p><label for="tax-percentage">Tax Percentage</label> <input id="tax-percentage" type="text" value="0.0875"/></p>
+				<p><label for="tip-percentage">Tip Percentage</label> <input id="tip-percentage" type="text" value="0.20"/></p>
+			</fieldset>
+			<fieldset>
+				<legend>Meal Price</legend>
+				<p><label for="meal-one-price">Meal One Price</label> <input id="meal-one-price" type="text" value="6.50"/></p>
+				<p><label for="meal-two-price">Meal Two Price</label> <input id="meal-two-price" type="text" value="7.25"/></p>
+				<p><label for="meal-three-price">Meal Three Price</label> <input id="meal-three-price" type="text" value="8.00"/></p>
+			</fieldset>
+			<fieldset>
+				<legend>Meal w/ Tax & Tip</legend>
+				<p><label for="meal-one-total">Meal One Total</label> <input id="meal-one-total" type="text"/></p>
+				<p><label for="meal-two-total">Meal Two Total</label> <input id="meal-two-total" type="text"/></p>
+				<p><label for="meal-three-total">Meal Three Total</label> <input id="meal-three-total" type="text"/></p>
+				<p><label for="total">Total</label> <input id="total" type="text"/></p>
+			</fieldset>
+			<div class="button-wrapper">
+				<button id="calculate-button" type="button">Calculate Totals</button>
+			</div>
+		</form>
+	</body>
+</html>
