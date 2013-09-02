@@ -31,6 +31,17 @@ Explain how to create a new folder.
 
 4. Save the file "YOURNAME.HTML" inside the folder "ScriptEd Lesson 2"
 
+##Text Editors
+
+A text editor is a computer program that allows you to edit plain text. As a web designer or developer, it's going to be the primary tool that you use to manipulate your work.
+
+This is a little bit different than a word processor, such as Microsoft Word, Apple Pages, or Google Docs.
+You want to avoid word processors like these when you are coding because they add lots of special formatting that you can't see when you're typing.
+
+One of the most useful features of a text editor is syntax highlighting. It means that the editor will highlight certain words or types or syntax specific to a language. This way, if you forget to include an opening or closing quotation mark, you will quickly realize it because of the color of the text on your screen.  A text editor might also indicate mismatched parentheses or brackets by turning them red; if you have a closing brace with no corresponding opening one, the color will tell you that you made a syntax error somewhere.
+
+###Help students download and install notepad++ if they don't already have it. http://notepad-plus-plus.org
+
 ##Open a File
 
 There are two ways to open a file:
