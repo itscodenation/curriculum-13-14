@@ -1,119 +1,152 @@
-## Lesson 1B - Basic HTML tags
-**Goal:** Understand basic html elements and tags
+Lesson 1B - Basic HTML tags
+---------------------------
 
+**Goal:** Understand basic html elements and tags    
 **Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate) and a modern web broswer (e.g., Chrome or Firefox). 
 
-## Tags 
-In the last section, we learned how to set up a basic html page and how to use tags. We're going to take a more in-depth look at tags:
-* An html element has a start tag, content, and end tag
+### Tags
+
+In the last section, we learned how to set up a basic html page and how to use tags. Now we're going to take a more in-depth look at tags:
+
+* A html element has a start tag, content, and end tag
 * An example of an html element: `<p>This is a paragraph</p>` In this example, the start or opening tag is `<p>`, the content is "this is a paragraph," and the end or closing tag is `</p>`
-* There are also a few standalone elements like `<br />` which adds a break, and `<img />` 
+* There are also a few standalone elements like `<br />` which adds a break, and `<img />` -- these elements are said to 'self-close', which means they don't need a closing tag.
+
+### Nesting
+
+In html, elements can be "nested" or contained within one another. For example, you could say that you have a sandwich inside your lunchbox, which is inside your backpack. In the same way, you can have a paragraph of text inside your intro section inside the body of your page. Open your index.html file in a text editor. Notice how the different elements are nested.
+
+* The body tag is nested within html tag
+* The h1 and p tags are nested within the body
+
+Let's add some more content, this time nested within the paragraph. After the sentence, "This is my website," type "This is an italicized word within a bold sentence". We are going to italicize the words "italicized word" and bold the entire sentence. The tag for bold is `<strong>` and italics is `<em>` which stands for emphasis. Give students a few minutes to try on their own, then ask for volunteers. Students should have:
+
+    <!doctype html>
+    <html>
+
+      <head>
+        <title>Hello World!</title>
+      </head>
+
+      <body>
+        <h1>Hello World, It's Ope</h1>
+        <p>This is my website. <strong>This is an <em>italicized word</em> within a bold sentence</strong>. Pretty crazy!</p>
+      </body>
+
+    </html>
 
 
-## Nesting
-In html, all elements are "nested" or contained within one another. Open your index.html file in a text editor. Notice that the different elements are nested. 
-* Body tag is nested within html tag
-* h1 and p tags are nested within the body 
+Note that the `<em>` tag is nested within the `<strong>` tag which is nested within the `<p>` tag (which is nested inside the body and html tags). Let's review a few more tags.
 
-Let's add other tags, this time nested within the paragraph. After the sentence, "This is my website," type "This is an italicized word within a bold sentence". We are going to italicize the word "This" and bold the entire sentence. The tag for bold is `<strong>` and italics is `<em>` which stands for emphasis. Give students a few minutes to try on their own, then ask for volunteers. Students should have:
-
-	<!doctype html>
-	<html>
-	 <head>
-	  <title> Hello World! </title>
-	 </head>
-	  <body>
-	   <h1> Hello World, It's Ope</h1>
-	    <p> This is my website. <strong> <em>This</em> is an italicized word within a bold sentence </strong> </p>
-	  </body>
-	</html>
-
-
-Notice that the `<em>` tag is nested within the `<strong>` tag which is nested within the `<p>` tag. Let's review a few more tags. 
-
-## Heading
+### Headings
 
 Have students type:
 
+    <h1>I am a Level 1 heading</h1>
+    <h2>I am a Level 2 heading</h2>
+    <h3>I am a Level 3 heading</h3>
+    <h4>I am a Level 4 heading</h4>
 
-	<h1>I am a Level 1 heading</h1>
-	<h2>I am a Level 2 heading</h2>
-	<h3>I am a Level 3 heading</h3>
-	<h4>I am a Level 4 heading</h4>
+Now refresh the page, and ask students what they notice about the headings in the browser. They will probably notice that headings with larger numbers appear as larger. Although this is not necessarily true (it's hierarchy, not size), it's not worth correcting until we get to talking about css later.
 
-Ask students what they notice about the headings in the broswer. Headings emphasize hierarcy, NOT size. Even though `<h1>` is visually larger than `<h2>`, it's meant to denote a larger organization hierarchy. 
-
-
-## Links
+### Links
 
 Links, or hyperlinks, are one of the core elements of the internet. Links are used to connect web pages or information to one another. A link allows you to jump to a new page, or a different part of a page. Let's look at how to create links. 
 
-Type:
+Type the following:
 
-	This is a link to <a href="https://www.google.com/"> Google's Homepage </a>
+    <p>This is a link to <a href="https://www.google.com/">Google</a>!</p>
 
+Now let's dissect the link more:
 
-Let's dissect the link more
-1. Tag: `<a>` and `</a>` - the a tag, which stands for anchor, is used to turn some text or image into a link. in the above, we turned the world "Google" into a link
-2. href attribute: this stands for hyperlink reference, and tells the link where to go or its destination. In this case, the link is going to go to www.google.com 
+1. Tag: `<a>` and `</a>` - the a tag, which stands for "anchor", is used to turn some text or image into a link. In the above situation, we turned the world "Google" into a link.
+2. href attribute: this stands for "hyperlink reference", and tells the link where to go or its destination. In this case, the link is going to go to www.google.com.
 
-Have students click the link to be sure it works. 
+Have students click the link to be sure it works.
 
-You can add a lot of additional information to links. Let's modify our link as follows:
+You can add a some additional information to links. Let's modify our link as follows:
 
-	This is a link to <a href="https://www.google.com/" alt="Google's homepage" target="_blank"> Google </a>
+    <p>This is a link to <a href="https://www.google.com/" target="_blank">Google</a>!<p>
 
 Have students type the above and click the link again to see what happens. Then explain:
-* The alt attribute specifies alternate text. If for some reason, the browser can't render the link, it will render the alternative text
-* The target attribute tells the browser where to open the link, whether in the same window, or in a new window or tab
+* The target attribute tells the browser where to open the link, whether in the same window, or in a new window or tab.
 
-Ask for volunteers to turn the following into links:
+Note that `href` and `target` are **attributes** of an html tag. This means that they are placed inside the opening tag. You can see that both attributes are placed before the end of the opening `<a>` tag. Attributes are invisible (you can't see them on the page), but are used to specify additional information about a tag. For example, a link can have a destination, a picture can have a title, etc.
+
+For any tag, it's easy to look up what attributes can be added to it, and what those attributes mean. [Here's where you can find the attributes list for `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes).
+
+Ask for volunteers to turn the following text into links:
 * This is a link to the front page of Google News
 * This is a link to ESPN and another link to YouTube
 
+### Lists
 
-## Lists
-An unordered list, or a bulleted list, is a list of related items and is formed using a `<ul>` element. Each item in the list is marked up with a `<li>`. Let's look at an example. 
+An unordered list, or a bulleted list, is a list of related items and is formed using a `<ul>` element. Each item in the list is marked up with a `<li>`. The reason they are called 'unordered' is that the order doesn't particularly matter for these lists, just the fact that it is a list. Let's look at an example. 
 
-	This is a list of NBA teams. 
-	<ul>
-		<li> Brooklyn Nets</li>
-		<li> New York Knicks</li>
-		<li> Chicago Bulls </li>
-		<li> Los Angeles Lakers </li>
-	</ul>
+    <p>This is a list of NBA teams.</p>
+    <ul>
+      <li>Brooklyn Nets</li>
+      <li>New York Knicks</li>
+      <li>Chicago Bulls</li>
+      <li>Los Angeles Lakers</li>
+    </ul>
 
-You can create lists within list. 
+You can create lists within lists - like all other html, lists can be nested.
 
-	This is a list of cities with sports teams
-	<ul>
-		<li> New York</li>
-		<li> Dallas </li>
-		<li> Atlanta </li>
-	</ul>
+    <p>This is a list of cities with sports teams</p>
+    <ul>
+      <li>New York</li>
+      <li>Dallas</li>
+      <li>Atlanta</li>
+    </ul>
 
-Now we're going to add a bullet under each city that lists its basketball and football team. Do the first list (New York) and have students do the last two lists on their own
+Now we're going to add a bullet under each city that lists its basketball and football team. Do the first list (New York) and have students do the last two lists on their own.
 
-	This is a list of cities with sports teams
-		<ul>
-			<li> New York
-				<ul>
-					<li>Knicks</li>
-					<li>Giants</li>
-				</ul>
-			</li>
-			<li> Dallas 
-				<li>Mavericks</li>
-				<li>Cowboys</li>
-			</li>
-			<li> Atlanta 
-				<li>Hawks</li>
-				<li>Falcons</li>
-			</li>
-		</ul>
+    <p>This is a list of cities with sports teams</p>
+    <ul>
+      <li>
+        New York
+        <ul>
+          <li>Knicks</li>
+          <li>Giants</li>
+        </ul>
+      </li>
+      <li>
+        Dallas
+        <ul>
+          <li>Mavericks</li>
+          <li>Cowboys</li>
+        </ul>
+      </li>
+      <li>
+        Atlanta 
+        <ul>
+          <li>Hawks</li>
+          <li>Falcons</li>
+        </ul>
+      </li>
+    </ul>
 
+### Indentation
 
-##Exercise 1b: Modify your "About.me" page
+This can get pretty complicated, and they can nest really far, which gets confusing. This is why we are sure to always **indent** the code so it's easy to tell which elements are nested inside other elements. Notice how any element inside the `<ul>` is indented one level in, and any element in the `ul` that also contains other other elements has the other elements indented another level, and so on.
+
+If you are extra sharp, you may have noticed that not all nested content is indented. Look at those `<li>`s -- the words inside them are not.
+
+    <li>list item</li>
+
+vs.
+  
+    <li>
+      list item
+    </li>
+
+Totally valid concern. The convention when writing html is to indent nested content any time there is more than one element inside another element. So here, since we only have text inside the element, it doesn't need to be indented, ans is written as above. However, you'll notice that in the top level `<li>`s, there is text **and** another ul inside each li, so we indent both the text and the ul for clarity.
+
+Making sure your html is properly indented may seem tedious at first -- html does not actually care about indentation, it's just for humans to be more clear about what's nested in what. But you will save yourself a lot of trouble and confusion down the road if you make sure that everything is indented correctly because it makes it a lot easier to read your code and track down problems.
+
+### Exercise 1b: Modify your "About.me" page
+
 Add some more information to your page.
 
 * Create three sections using a first level heading. The sections should be called "History", "Hobbies & Interests", and "Education." Add a line break after each section
