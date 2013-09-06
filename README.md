@@ -3,8 +3,9 @@ ScriptEd Foundations Curriculum
 
 ####Outline of Curriculum:
 
-[Teacher Resources](Resources/)
 [Teacher Resources](Resources/Guidelines_Procedures_FAQs)
+
+[Guidelines, Procedures and FAQs for Volunteers](Resources/)
 
 [Student Rubric](http://bit.ly/ScriptEdCurriculum)
 
