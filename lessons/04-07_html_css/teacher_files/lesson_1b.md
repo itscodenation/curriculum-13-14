@@ -2,13 +2,13 @@ Lesson 1B - Basic HTML tags
 ---------------------------
 
 **Goal:** Understand basic html elements and tags    
-**Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate) and a modern web broswer (e.g., Chrome or Firefox). 
+**Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate) and a modern web browser (e.g., Chrome or Firefox). 
 
 ### Tags
 
 In the last section, we learned how to set up a basic html page and how to use tags. Now we're going to take a more in-depth look at tags:
 
-* A html element has a start tag, content, and end tag
+* An html element has a start tag, content, and end tag
 * An example of an html element: `<p>This is a paragraph</p>` In this example, the start or opening tag is `<p>`, the content is "this is a paragraph," and the end or closing tag is `</p>`
 * There are also a few standalone elements like `<br />` which adds a break, and `<img />` -- these elements are said to 'self-close', which means they don't need a closing tag.
 
@@ -47,7 +47,7 @@ Have students type:
     <h3>I am a Level 3 heading</h3>
     <h4>I am a Level 4 heading</h4>
 
-Now refresh the page, and ask students what they notice about the headings in the browser. They will probably notice that headings with larger numbers appear as larger. Although this is not necessarily true (it's hierarchy, not size), it's not worth correcting until we get to talking about css later.
+Now refresh the page, and ask students what they notice about the headings in the browser. They will probably notice headings with larger numbers appear as larger. Although this is not necessarily true (it's hierarchy, not size), it's not worth correcting until we get to talking about css later.
 
 ### Links
 
@@ -64,14 +64,14 @@ Now let's dissect the link more:
 
 Have students click the link to be sure it works.
 
-You can add a some additional information to links. Let's modify our link as follows:
+You can add some additional information to links. Let's modify our link as follows:
 
-    <p>This is a link to <a href="https://www.google.com/" target="_blank">Google</a>!<p>
+    <p>This is a link to <a href="https://www.google.com/" target="_blank">Google</a>!</p>
 
 Have students type the above and click the link again to see what happens. Then explain:
 * The target attribute tells the browser where to open the link, whether in the same window, or in a new window or tab.
 
-Note that `href` and `target` are **attributes** of an html tag. This means that they are placed inside the opening tag. You can see that both attributes are placed before the end of the opening `<a>` tag. Attributes are invisible (you can't see them on the page), but are used to specify additional information about a tag. For example, a link can have a destination, a picture can have a title, etc.
+Note that `href` and `target` are **attributes** of an html tag. This means that they are placed inside the opening tag. You can see both attributes are placed before the end of the opening `<a>` tag. Attributes are invisible (you can't see them on the page), but are used to specify additional information about a tag. For example, a link can have a destination, a picture can have a title, etc.
 
 For any tag, it's easy to look up what attributes can be added to it, and what those attributes mean. [Here's where you can find the attributes list for `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Attributes).
 
@@ -100,7 +100,7 @@ You can create lists within lists - like all other html, lists can be nested.
       <li>Atlanta</li>
     </ul>
 
-Now we're going to add a bullet under each city that lists its basketball and football team. Do the first list (New York) and have students do the last two lists on their own.
+Now we're going to add a bullet under each city that lists its basketball and football teams. Do the first list (New York) and have students do the last two lists on their own.
 
     <p>This is a list of cities with sports teams</p>
     <ul>
@@ -141,7 +141,7 @@ vs.
       list item
     </li>
 
-Totally valid concern. The convention when writing html is to indent nested content any time there is more than one element inside another element. So here, since we only have text inside the element, it doesn't need to be indented, ans is written as above. However, you'll notice that in the top level `<li>`s, there is text **and** another ul inside each li, so we indent both the text and the ul for clarity.
+Totally valid concern. The convention when writing html is to indent nested content any time there is more than one element inside another element. So here, since we only have text inside the element, it doesn't need to be indented, and is written as above. However, you'll notice in the top level `<li>`s, there is text **and** another ul inside each li, so we indent both the text and the ul for clarity.
 
 Making sure your html is properly indented may seem tedious at first -- html does not actually care about indentation, it's just for humans to be more clear about what's nested in what. But you will save yourself a lot of trouble and confusion down the road if you make sure that everything is indented correctly because it makes it a lot easier to read your code and track down problems.
 
@@ -150,7 +150,7 @@ Making sure your html is properly indented may seem tedious at first -- html doe
 Add some more information to your page.
 
 * Create three sections using a first level heading. The sections should be called "History", "Hobbies & Interests", and "Education." Add a line break after each section
-* In the "Hobbies & Interests" section, add two second level headings, one called "Favorite Movies" and "Favorite Places"
-* In the "Favorite Movies" section, add some text, and a bulletted list of your top 5 favorite movies
+* In the "Hobbies & Interests" section, add two second level headings, one called "Favorite Movies" and another called "Favorite Places"
+* In the "Favorite Movies" section, add some text, and a bulleted list of your top 5 favorite movies
 * In the "Favorite Places" section, add some text, and a numbered list of your top 3 favorite places
-*Bonus:  At the bottom of the page, add the text: Email me to learn more about me. Figure out how to add an email link so that when someone clicks on the sentence, it opens a link to an email program
+* Bonus:  At the bottom of the page, add the text: Email me to learn more about me. Figure out how to add an email link so that when someone clicks on the sentence, it opens a link to an email program
