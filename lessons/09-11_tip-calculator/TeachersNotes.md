@@ -8,7 +8,7 @@
 
 Variables are names we assign to values. Like in math, except the value doesn't have to be a number, it can be anything.
 
-Variables allow you to be flexible.  They are a way of storing something in the computer, much like having a bucket for putting your Lego in.  If you need to go do some chores and just drop your toys, you might not be able to find them again later – or if your parents clean up the toys might get thrown out in the course of garbage collection.   If, instead, you get a plastic bucket out and put them in there, you can rest safe in the knowledge that they’ll be there later after you finish your chores.  Variables are a bit similar.  They’re somewhere that you can put data that the program is using and label it for future reference.  Just like a bucket with the word “My Toys” on the side, you know that, assuming you put it in there earlier, your toys  will be in there next time you look.
+Variables allow you to be flexible.  They are a way of storing something in the computer, much like having a bucket for putting your Legos in.  If you need to go do some chores and just drop your toys, you might not be able to find them again later – or if your parents clean up the toys might get thrown out in the course of garbage collection.   If, instead, you get a plastic bucket out and put them in there, you can rest safe in the knowledge they’ll be there later after you finish your chores.  Variables are a bit similar.  They’re somewhere you can put data the program is using and label it for future reference.  Just like a bucket with the word “My Toys” on the side, you know that, assuming you put it in there earlier, your toys  will be in there next time you look.
 
 The name you put on the outside of the bucket doesn’t really affect what you put in it.  You could have the words “toy cars” on a bucket and yet put all your trading cards in there instead.   The point is that the bucket is a safe place to keep your toys.  Variables are a safe place to keep the program’s data.
 
@@ -22,7 +22,7 @@ It is like putting 1 into a bucket marked a.
 
 The name you give to a value is called an identifier. For the purposes of this class, a JavaScript identifier must start with a letter, subsequent characters can be letters or numbers. No spaces are allowed. JavaScript is case sensitive, so `var my_code` is different from `var My_Code`.
 
-To assign a value to an identifier, we use a special keyword, `var`. This means that you cannot have a variable called `var`, because JavaScript is already using it. There are some other words that you cannot use as identifiers, like 
+To assign a value to an identifier, we use a special keyword, `var`. This means you cannot have a variable called `var`, because JavaScript is already using it. There are some other words that you cannot use as identifiers, like 
 
 ```
     break
@@ -79,7 +79,7 @@ These are all expressions:
 
 ##Arithmetic Operators
 
-Arithmetic operators are used to perform arithmetic between variables and/or values.
+Arithmetic operators are used to perform arithmetic operations between variables and/or values.
 
 = is used to assign values.
 
@@ -126,14 +126,14 @@ console.log(erik_price);
 4. Make a variable to store the tip amount. How much will the tip be if the tip is calculated at 15% (0.15)?
 
 5. Like we just did with the tip:
-	a. We need a variable to hold the tax. NYC tax is 8.875%, but when you program you must write it as a decimal - 0.08875.
-	b. We need a variable to hold the amount of the tax. How much will the tax be?
+	* We need a variable to hold the tax. NYC tax is 8.875%, but when you program you must write it as a decimal - 0.08875.
+	* We need a variable to hold the amount of the tax. How much will the tax be?
 	
 6. Create a variable to calculate the total bill of Erikʼs meal. (Cost of the burger, tip amount, tax amount)
 
 ###PART II. Bill Eats Food, Too
 
-Bill also went out to eat and had a Chicken Caesar Salad. The Caesar Salad cost 6.00 dollars. Following the example that we JUST did for Erikʼs meal:
+Bill also went out to eat and had a Chicken Caesar Salad. The Caesar Salad cost 6.00 dollars. Following the example we JUST did for Erikʼs meal:
 
 1. Create the variable and print Bill's food order
 
@@ -143,7 +143,7 @@ Bill also went out to eat and had a Chicken Caesar Salad. The Caesar Salad cost 
 
 4. Create the variable and print the amount of Bill's tax
 
-5. Create the variable and print the total amount of Bill's order (print + tip + tax)
+5. Create the variable and print the total amount of Bill's order (price + tip + tax)
 
 ####Think: How will you name your variables? In what order will you write your code? What’s the difference between the amount of the tax/tip paid and the tax/tip percentage?
 
@@ -166,17 +166,17 @@ You decide to join Bill and Erik for lunch.
 1. Select your meal from the menu at http://www.shakeshack.com/location/theater-district/
 
 2. Create the variable and print the following values for your meal:
-	a. The name of your meal 
-	b. The price of your food 
-	c. The total amount for your tax 
-	d. The total amount for your tip 
-	e. The total amount you paid for your meals (price + tax + tip)
+	* The name of your meal 
+	* The price of your food 
+	* The total amount for your tax 
+	* The total amount for your tip 
+	* The total amount you paid for your meals (price + tax + tip)
 	
 3. Now calculate the total for all three people (Erik, Bill & YOU)
-	a. The combined total for your food 
-	b. The combined total for your tax 
-	c. The combined total for your tip 
-	d. The combined total for your meals (price + tax + tip)
+	* The combined total for your food 
+	* The combined total for your tax 
+	* The combined total for your tip 
+	* The combined total for your meals (price + tax + tip)
 	
 ###PART V. Bonus
 
@@ -206,7 +206,7 @@ console.log(“You have ” + soccer_balls + “ balls! That’s a lot!”);
 	
 ##Project Time!
 
-Quickly review HTML IDs. You can pretty much sweep over the jQuery and the two helper functions. Remember that the goal here is to teach variable assignment and operators.
+Quickly review HTML IDs. You can pretty much sweep over the jQuery and the two helper functions. Remember the goal here is to teach variable assignment and operators.
 
 1. Write code that gets the tax percentage, tip percentage, and three meal prices from the form.
 

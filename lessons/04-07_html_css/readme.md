@@ -1,5 +1,5 @@
 # ScriptED HTML/CSS Curriculum #
-These lessons introduce beginners to fundamentals of web design with HTML and CSS. The teacher_files provides outlines for the teacher. The student_files include samples of final student html pages from each lesson. 
+These lessons introduce beginners to the fundamentals of web design with HTML and CSS. The teacher_files provide outlines for the teacher. The student_files include samples of final student html pages from each lesson. 
 
 ## Lesson 1 - Introduction to HTML
 * Lesson 1a: What is a web page?
