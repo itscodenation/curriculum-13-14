@@ -8,17 +8,14 @@ What is CSS?
 -------------------
 
 ### Explain & Show ###
-
 Explain CSS stands for **Cascading Style Sheets**.  CSS provides the formatting and style for a webpage, while HTML provides the content of the webpage.  Give some examples of what CSS might be used to style (e.g., font-size, background-color, element position, etc.).  
 ### Exercise ###
-
 Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look around to see what CSS can do.
 
 * Ask if they notice anything similar between the different designs.  Ask if they notice anything similar.
 * Make sure they recognize every design of the page has the same content (HTML), but the look and feel of each site varies drastically due to the styling provided by CSS.
 
 ## How is CSS added to HTML? ##
-
 Mention there are multiple ways to include CSS in HTML, but we'll be following one particular approach throughout our curriculum: **external style sheets**.  This just means that we'll be writing our CSS in a separate file and then including it in our HTML later on.
 
 * Have students open css_lesson_1.html in their browsers and text editors.  At this point the page will have no CSS.
@@ -26,7 +23,6 @@ Mention there are multiple ways to include CSS in HTML, but we'll be following o
 * Ask the students to uncomment the line in css_lesson_1.html that includes the css, save it, and then refresh it in their browsers.  Ask them what changed and enourage to guess why.
 
 ## CSS Syntax ##
-
 Now we'll dig into the actual syntax of CSS.  Open up that style.css file.
 
 Break down a CSS rule into its components.  Be sure to cover these topics and provide examples:
@@ -35,7 +31,6 @@ Break down a CSS rule into its components.  Be sure to cover these topics and pr
 * Syntax rules like opening and closing curly braces, colons between properies and values,  and separating declarations with semi-colons
 
 ### Selectors ###
-
 Show how to target elements by:
 * element type (div, p, img, etc.)
 * class (.className)
@@ -52,7 +47,7 @@ Briefly mention that we've only shown the very basics of CSS and that it's possi
 If multiple rules apply to an element and they set the same property to different values, what is the actual value?  The short answer is the more specific rules take precedence over the less specific.  This isn't a topic that needs to be discussed, but be aware of this in case a student asks.
 
 ### Resources ###
-Make sure the students have this (CSS Cheat Sheet)[] available to help them along while they work on the subsequent exercises.  Also, encourage them to try using Google if they have any questions, or they can always ask a volunteer for help.
+Make sure the students have this (CSS Cheat Sheet)[http://www.pxleyes.com/blog/wp-content/uploads/2010/03/css-cheatsheet.pdf] available to help them along while they work on the subsequent exercises.  Also, encourage them to try using Google if they have any questions, or they can always ask a volunteer for help.
 
 ### Exercise ###
 Have students change the appearance of the css_lesson_1.html in the browser by changing style.css.  They should make the following changes:

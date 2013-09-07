@@ -32,3 +32,8 @@ img {
 #foxGif {
   text-align: center;
 }
+
+a:hover {
+  background-color: blue;
+  color: white;
+}
