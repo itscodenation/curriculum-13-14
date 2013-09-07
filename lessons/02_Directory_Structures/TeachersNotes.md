@@ -1,8 +1,10 @@
 #ScriptEd Lesson 2: Working with Files and Directory Structures
 
+**REMINDER**: Students should log their attendance at scripted.org/attendance
+
 **Goal: Learn about downloading, opening, editing, and saving files.**
 
-**Review:** During the last class, students learned about how to write simple programs using Khan Academies platform. In this lesson, we help students understand that programs are typically written in a text editor ans saved into files on our computer. 
+**Review:** During the last class, students learned about how to write simple programs using Khan Academies platform. In this lesson, we help students understand that programs are typically written in a text editor and saved into files on our computer. 
 
 ##Using Folders
 
