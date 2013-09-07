@@ -1,1 +1,2 @@
-Specify the examples mentioned in Selectors section of the CSS lesson.
+* Specify the examples mentioned in Selectors section of the CSS lesson.
+* Lesson 1c: Attributes: styles, image, anchor

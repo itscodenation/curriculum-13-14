@@ -6,8 +6,6 @@ These lessons introduce beginners to the fundamentals of web design with HTML an
 * Exercise 1a: Start an "About.me" page
 * Lesson 1b: Basic tags: heading, paragraph, lists/nesting, tables, forms (just mention, not details)
 * Exercise 1b: Add more details to "About.me"
-* Lesson 1c: Attributes: styles, image, anchor
-* Exercise 1c
 
 ## Lesson 2 - Introduction to CSS
 * Lesson 2a: What is CSS?
