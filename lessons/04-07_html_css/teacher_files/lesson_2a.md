@@ -1,0 +1,66 @@
+Lesson 2A - Introduction to CSS
+--------------------------------
+
+**Goal:** Understand the role of CSS and how to make simple changes to pre-existing CSS files.
+**Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate), a modern web browser (e.g., Chrome or Firefox), and introductory understanding of HTML.
+
+What is CSS?
+-------------------
+
+### Explain & Show ###
+
+Explain CSS stands for Cascading Style Sheets.  CSS provides the formatting and style for a webpage, while HTML provides the content of the webpage.  Give some examples of what CSS might be used to style (e.g., font-size, background-color, element position, etc.).  
+
+## Exercise ##
+
+Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look around to see what CSS can do.
+
+* Ask if they notice anything similar between the different designs.  Ask if they notice anything similar.
+* Make sure they recognize every design of the page has the same content (HTML), but the look and feel of each site varies drastically due to the styling provided by CSS.
+
+## How is CSS added to HTML? ##
+
+Mention there are multiple ways to include CSS in HTML, but the industry standard is one particular approach we'll be following throughout our curriculum: external style sheets.  This is where we write our CSS in a separate file and then include it in our HTML.
+
+* The students may or may not have already learned comments from their preceding HTML lessons.  Ask students how to write comments in HTML and if they are unaware, then briefly review them.  
+* Have the students uncomment the line in css_lesson_1.html that includes the css, save it, and then refresh it in their browsers.  Ask them what changed and enourage to guess why.
+
+## CSS Syntax ##
+
+Now we'll dig into the actual syntax of CSS.  Open up that style.css file.
+
+Break down a CSS rule into its components.  Be sure to cover these topics and provide examples:
+* Selectors
+* Declarations (Property-Value pairs)
+* Syntax rules like opening and closing curly braces, colons between properies and values,  and separating declarations with semi-colons
+
+
+### Selectors ###
+
+Show how to target elements by:
+* element type (div, p, img, etc.)
+* class (.className)
+* id (#idName)
+
+The students may have already learned what classes and ids are, but you should ask them to explain them and what each is used for.
+
+Lead them through some CSS changes on a projector and ask what they think will happen before reloading the page.  Make some mistakes as you go to make sure the students recognize the importance of getting the syntax correct and what behavior to expect when they don't.  You can also ask what you ought to change to make something occur ("What would you guess I should change to make the background pink?").  Feel free to use sites like jsfiddle.net to present your examples.
+
+
+### Pseudo Selectors ###
+Briefly mention that we've only shown the very basics of CSS and that it's possibly to do much more with it.  For example, you can target elements based on certain user actions (show :hover) or on an element's position in the html (p .childId).  Consider showing some live examples on the projector.
+
+### Rule Precedence ###
+If multiple rules apply to an element and they set the same property to different values, what is the actual value? TODO 
+
+## Exercise ##
+Have students change the appearance of the css_lesson_1.html in the browser by changing style.css.  They should make the following changes:
+* Make the fox gif smaller
+* Change the background and font color of "Greetings, human! I am robot text"
+* Change the link so it goes to your favorite site (besides ScriptEd.org)
+* Bonus: Change the fox image to another image
+* Bonus: Create an image that links to another site when clicked
+
+
+## Exercise ##
+Create a CSS file and and include it in your "About.me" page.  Now style your "About.me" page by altering your CSS file!  As the teacher you may want to announce this as the next exercise at the same time you announce the previous exercise.  Tell the students that once they complete the previous exercise they should move on to this one.
