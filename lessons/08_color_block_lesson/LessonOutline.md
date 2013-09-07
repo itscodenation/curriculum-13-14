@@ -10,7 +10,7 @@
 
 Walk students through a live coding excercise of this web page.  Explain the different parts of the page as indicated in the attachment and have students code along with you.
 
-[Color Block Teachers Notes](/teachersnotes/color_block_teachers_notes.pdf)
+[Color Block Teachers Notes](teachersnotes/color_block_teachers_notes.pdf)
 
 ###Assignment:
 
