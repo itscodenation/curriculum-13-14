@@ -1,0 +1,18 @@
+#answer {
+    text-align: center;
+}
+
+#fortune-reader {
+    width: 15%;
+    height: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-holder {
+    padding: 20% 0 10%;
+}
+
+.question-holder {
+    padding: 0 0 10%;
+}
