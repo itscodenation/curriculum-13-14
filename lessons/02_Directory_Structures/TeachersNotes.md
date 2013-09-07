@@ -2,7 +2,7 @@
 
 **Goal: Learn about downloading, opening, editing, and saving files.**
 
-**I'm keeping this kinda vague because different schools will have different environments**
+**Review:** During the last class, students learned about how to write simple programs using Khan Academies platform. In this lesson, we help students understand that programs are typically written in a text editor ans saved into files on our computer. 
 
 ##Using Folders
 
@@ -17,17 +17,36 @@ Discuss where students should save files, whether they have usb keys or are savi
 
 ###Create a new folder
 
-Explain how to create a new folder.
+Explain how to create a new folder. Model on a projector screen if possible, and have students help one another.
 
-###Have the students create a folder for each of the 11 ScriptEd Lessons.
+###Have the students create a folder for each ScriptEd Project for this semester
+
+Your_Name
+
+About_Me_Webpage
+
+Color_Block
+
+Tip_Calculator
+
+Madlibs
+
+Substrings
+
+Number_Guesser
+
+Magic_8_Ball
+
+ATM
+
 
 ##Download a File
 
-1. Go to (need a scripted.org page here). Right click on the link that says Download Me and hit "Save Link As..."
+1. Go to scripted.org/lessons. Right click on the link that says Download Me next to lesson 2 and hit "Save Link As..."
 
 2. Rename the file to "YOURNAME.html"
 
-3. Make sure you are in your (network drive, usb key, etc.).
+3. Make sure you are saving to the appropriate file -- students should save to the "Your_Name" file.
 
 4. Save the file "YOURNAME.HTML" inside the folder "ScriptEd Lesson 2"
 
