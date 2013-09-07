@@ -12,7 +12,7 @@ These lessons introduce beginners to the fundamentals of web design with HTML an
 ## Lesson 2 - Introduction to CSS
 * Lesson 2a: What is CSS?
 * Exercise: Go to CSS Zen Garden website to see the difference CSS can make
-* Lesson 2b: Selectors - elements, ids, classes, pseudo-selectors (hover)
+* Lesson 2b: How is CSS added to HTML?
+* Lesson 2c: CSS Syntax
 * Exercise: Experiment with the given html and css
 * Exercise: Style your "About.me" page
-
