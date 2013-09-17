@@ -1,4 +1,4 @@
-#ScriptEd Lesson #XX: Guess a Number
+#ScriptEd Lesson #16-17: Guess a Number
 
 **Goal: Learn about random number generator, comparison operators, if loops, while loops.**
 
