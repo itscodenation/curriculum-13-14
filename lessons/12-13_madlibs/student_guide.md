@@ -1,5 +1,5 @@
 #ScriptEd - Mad Libs
-####Reading Files and String Replacement
+####String Replacement
 
 ##Introduction
 
