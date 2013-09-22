@@ -2,6 +2,9 @@
 
 $(document).ready(function() {
 
+	//Alert with a welcome message
+	
+
 	//This is the story with placeholder words
 	var story = "It has often been said that 'a dog is a man's best NOUN_1.' " +
 	"Dogs are very ADJECTIVE_1 and can be taught many ADJECTIVE_2 tricks. " +

@@ -1,5 +1,5 @@
 #ScriptEd - Mad Libs
-####String Replacement
+####String Replacement, Alerts, and Prompts
 
 ##Introduction
 
@@ -17,9 +17,20 @@ She VERB ENDING IN ED them all soundly and put them to bed.
 To play the game, you ask the player for a word of each type (adjective, noun, plural noun, noun, verb ending in ed) WITHOUT telling them what the story is.  Once they’ve given you all of their answers, you replace the underlined words with whatever answers the player gave you.  Since they didn’t know anything about the story, only what kinds of words to give you, you’ll probably end up with a very silly story! 
  
 
-##PART 1 - Prompting for input
+##Part 1 - Alert
+Start off with the file madlibs.js and create an alert that says: **Hello! Welcome to my Mad Libs game!**
 
-Start with the file called madlibs.js.  Prompt the user to enter a word for each of the types of words in this list:
+An alert is a box that pops up on the screen with some text. You can create an alert by writing something like:
+
+```
+alert("Hello!")
+```
+but remember to repalce the text with what you want it to say.
+
+
+##PART 2 - Prompting for input
+
+Next, prompt the user to enter a word for each of the types of words in this list:
 
 1.	A noun
 2.	An adjective
@@ -46,12 +57,13 @@ For each word you should ask the user "Please enter " and whatever type of item 
 Please enter a verb
 ```
 
-Make sure to put each of their responses into a variable! Think about what you name your variables too, you're gonna need to use them later!
+Make sure to store each of their responses into a variable! Think about what you name your variables too, you're gonna need to use them later!
 
-__HINT:__ Remember how we prompt a user to enter some input? 
+__HINT:__ Remember how we prompt a user to enter some input?
 
+Remember, a prompt is the box that pops up on the screen and asks you to enter something in the box. When someone enters a word or group of words, you can store that string in a variable.
 
-##PART 2 - Replacing parts of a string 
+##PART 3 - Replacing parts of a string 
 
 Did you notice that in the `story` string that we just printed out the words in ALL CAPITAL LETTERS, like NOUN_1 and ADJECTIVE_1?  These words are placeholders.  We're going to replace those placeholder words with the words that you prompted the user for in Step 1!  To do this, we're going to use the string's replace() method.  This method looks for some text in a string, and replaces it with some other text.  So for example
 
