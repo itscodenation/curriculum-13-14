@@ -22,7 +22,16 @@ It is like putting 1 into a bucket marked a.
 
 The name you give to a value is called an identifier. For the purposes of this class, a JavaScript identifier must start with a letter, subsequent characters can be letters or numbers. No spaces are allowed. JavaScript is case sensitive, so `var my_code` is different from `var My_Code`.
 
-To assign a value to an identifier, we use a special keyword, `var`. This means you cannot have a variable called `var`, because JavaScript is already using it. There are some other words that you cannot use as identifiers, like 
+To assign a value to an identifier, we use a special keyword, `var`. This means you cannot have a variable called `var`, because JavaScript is already using it. We use the keyword `var` to assign numbers and strings to words that represent them, such as
+
+     var my_favorite_number = 12;
+ or
+ 
+     var my_dogs_name = "Fred";
+     
+The second of these assignments is called a "string" which you can use to store any collection of letters or numbers. We will cover this idea in more detail in later classes.
+
+There are some other words that you cannot use as identifiers, like 
 
 ```
     break
@@ -203,7 +212,15 @@ console.log(“You have ” + soccer_balls + “ balls! That’s a lot!”);
 ```
 	
 ####Think: Notice the extra spaces in the code above. Why do I need those spaces? What would happen if I didn’t put them there? Can I write paragraphs?
-	
+
+##Before We Begin
+
+To include large chunks of javascript in our HTML and CSS, we need to introduce a new tag into our HTML.  This is known as the `script` tag. If I have a file named "main.js" in the same directory as my HTML that I want to put into my website, I can do that by inserting the following code into my html:
+
+    <script type="text/javascript" src="main.js"></script>
+
+That is about all the information students should need about that for the time being.
+
 ##Project Time!
 
 Quickly review HTML IDs. You can pretty much sweep over the jQuery and the two helper functions. Remember the goal here is to teach variable assignment and operators.
