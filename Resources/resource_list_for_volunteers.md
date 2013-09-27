@@ -2,6 +2,11 @@
 
 -----------
 
+###General Teaching Strategies
+-[Khan Academy Design Guidelines](http://cs-blog.khanacademy.org/2013/08/our-design-guidelines-for-teaching.html)
+
+-[Interactive Teaching Tips](https://github.com/ScriptEdcurriculum/curriculum/blob/master/Resources/interactive_techniques_for_teaching.md)
+
 ###HTML and CSS
 
 - [Chrome Dev Tools](https://developers.google.com/chrome-developer-tools/) - The best way for students to play with html and css and get feedback from the changes is to play with websites witht the Chrome Dev Tools. Easy to do on any pages. Immediate feedback. Here's the guide.
@@ -31,8 +36,8 @@
 
 
 
-### General Teaching Tools
+### Calendars
 
 - [NYC Department of Education School Year Schedule](http://schools.nyc.gov/NR/rdonlyres/D45BBFC5-BB4E-4C6B-ACE7-F7E15D8AA1BE/0/20132014SchoolYearCalendar.pdf) - New York City Department of Education's calendar for the 2013-2014 year. Plan accordingly!
-- Special School Schedules (Maurya to list)
+
 

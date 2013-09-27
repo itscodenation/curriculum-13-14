@@ -1,0 +1,39 @@
+#intro {
+  background: blue;
+  padding: 20px;
+}
+
+#intro p {
+  background: black;
+  margin: 10px;
+  min-height: 10px;
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+}
+
+.emphasis {
+  color: red;
+}
+
+.robot {
+  color: gray;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#foxGif {
+  text-align: center;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}

@@ -1,44 +1,32 @@
 <html>
+
   <head>
     <title>Introduction to CSS</title>
-    <style>
-      .outer {
-        background: blue;
-        padding: 20px;
-      }
-
-      .inner {
-        background: black;
-        margin: 10px;
-        min-height: 10px;
-        text-align: center;
-      }
-
-      #text {
-        color: red;
-      }
-
-      #robot {
-        color: gray;
-        font-family: monospace;
-        text-transform: uppercase;
-      }
-
-      div span {
-        font-size: 30pt;
-        color: white;
-      }
-
-    </style>
-
+    <!-- <link rel='stylesheet' href='style.css' /> -->
   </head>
 
   <body>
-    <div class="outer">
-      <div id="1" class="inner"><span id="text">Hello! I'm just some text on a page.</span></div>
-      <div id="2" class="inner"><span>I'm some other text!</span></div>
-      <div id="3" class="inner"><span>I'm some other text!</span></div>
-      <div id="1" class="inner"><span id="robot">Greetings, human! I am robot text.</span></div>
+
+    <div id='intro'>
+      <p class='emphasis'>Hello! Welcome to this awesome website about CSS.</p>
+
+      <p>Here you can learn many wild and magical things about the meaning of life, how to turn text different colors, and other similar concepts</p>
+
+      <p class="robot">Greetings, human! I am robot text.</p>
     </div>
+
+    <div id='main'>
+      <p class='emphasis'>Now that we are here in the main section, let's get down to the specifics.</p>
+
+      <a href='http://www.scripted.org'>A link to ScriptEd's homepage</a>
+
+      <div>
+        <img src='https://i.chzbgr.com/maxW500/4420211712/hB9EAA2B8/'>
+        <div id="foxGif">Firefox has encountered an error with Windows</div>
+      </div>
+
+    </div>
+
   </body>
+
 </html>

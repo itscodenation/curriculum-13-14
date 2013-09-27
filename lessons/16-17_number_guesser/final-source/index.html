@@ -4,12 +4,12 @@
 		<!--  - DO NOT ALTER THESE-->
 		<script src="_base/javascripts/jquery.js"></script>
 		<script src="_base/bootstrap/javascript/bootstrap.js"></script>
-		
+
 		<link rel="stylesheet" href="_base/bootstrap/css/bootstrap.css"></link>
 		<link rel="stylesheet" href="_base/styles/scripted_base.css"></link>
 
 
-		
+
 	    <!-- YOUR STYLES -->
 
         <!-- YOUR JAVASCRIPT -->
@@ -23,12 +23,12 @@ if(number_of_turkeys > 3){
 }
 
 
-/* 
+/*
 var number_of_turkeys = 2;
 if(number_of_turkeys > 3){
     console.log("number_of_turkeys is greater than 3");
     alert("number_of_turkeys is greater than 3");
-} 
+}
 */
 
 
@@ -55,7 +55,7 @@ if("abc" === "ABC"){
 
 
 /*
-var number_of_brushings = prompt.get_input("How many times a day do you brush your teeth?");
+var number_of_brushings = prompt("How many times a day do you brush your teeth?");
 
 if(number_of_brushings < 2) {
     console.log("Have a tic tac.");
@@ -78,7 +78,7 @@ alert(math_random);
 
 
 /*
-var math_floor = Math.floor(1.6); 
+var math_floor = Math.floor(1.6);
 console.log(math_floor);
 alert(math_floor);
 */
@@ -88,20 +88,20 @@ alert(math_floor);
 var random_number_10 = Math.floor(Math.random()*10) + 1;
 console.log(random_number_10);
 alert(random_number_10);
-*/ 
+*/
 
 
 /*
 var random_number_100 = Math.floor(Math.random()*100) + 1;
 console.log(random_number_100);
 alert(random_number_100);
-*/ 	
+*/
 
 
 /*
 var random_number = Math.floor(Math.random()*10) +1;
 console.log(random_number);
-var guess = prompt.get_input("What is the secret number?");
+var guess = prompt("What is the secret number?");
 console.log(guess);
 if(random_number === guess){
     console.log("You got it!);
@@ -137,7 +137,7 @@ while(count <= 10) {
 /*
 var random_number = Math.floor(Math.random()*10) +1;
 console.log(random_number);
-var guess = prompt.get_input("What is the secret number?");
+var guess = prompt("What is the secret number?");
 console.log(guess);
 var count = 1;
 while(count<=6){
@@ -148,18 +148,31 @@ while(count<=6){
     } else {
         console.log("Nope!");
         alert("Nope!);
+        count++;
     }
 }
-*/			
-				
-</script>	
+*/
+
+/*
+console.log("Pick a random number from 1 to 10 and the computer will guess");
+for(count = 1; count <=10; count++){
+  var guess_correct = prompt("Is " + count + " the number you are thinking of? y/n");
+  if(guess_correct === "y"){
+    console.log("Awesome. I got it!");
+    alert("Awesome. I got it!");
+    break;
+  }
+}
+*/
+
+</script>
 	</head>
-	
+
 	<body>
 
 
-	
+
 	</body>
-	
+
 
 </html>

@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 60px;
+	color: #16a085;
+	margin: 35px;
+}
+
+#story{
+	margin:0 auto;
+	line-height: 120%;
+	width: 750px;
+	font-family: Georgia, Arial, sans-serif;
+	font-size: 40px;
+	color: #8e44ad;
+	
+	
+}
