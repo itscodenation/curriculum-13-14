@@ -18,7 +18,7 @@ Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look arou
 ## How is CSS added to HTML? ##
 Mention there are multiple ways to include CSS in HTML, but we'll be following one particular approach throughout our curriculum: **external style sheets**.  This just means we'll be writing our CSS in a separate file and then including it in our HTML later on.
 
-* Have students open css_lesson_1.html in their browsers and text editors.  At this point the page will have no CSS.
+* Have students open css_lesson_1.html in their browsers and text editors.   They can download the file at scripted.org/class/css_lesson_1.html. At this point the page will have no CSS.
 * The students may or may not have already learned comments from their preceding HTML lessons.  Ask students how to write comments in HTML and if they are unaware, then briefly review them.  
 * Ask the students to uncomment the line in css_lesson_1.html that includes the CSS, save it, and then refresh it in their browsers.  Ask them what changed and encourage the students to guess why.
 
