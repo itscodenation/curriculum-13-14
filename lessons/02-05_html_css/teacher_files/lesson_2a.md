@@ -18,12 +18,13 @@ Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look arou
 ## How is CSS added to HTML? ##
 Mention there are multiple ways to include CSS in HTML, but we'll be following one particular approach throughout our curriculum: **external style sheets**.  This just means we'll be writing our CSS in a separate file and then including it in our HTML later on.
 
-* Have students open css_lesson_1.html in their browsers and text editors.   They can download the file at scripted.org/class/css_lesson_1.html. At this point the page will have no CSS.
+* Have students download css_lesson_1.html and style.css.   They can download the file at scripted.org/lessons.html. They should open the files in their text editors, and should open the HTML file in their browsers. At this point the page will have no CSS.
 * The students may or may not have already learned comments from their preceding HTML lessons.  Ask students how to write comments in HTML and if they are unaware, then briefly review them.  
-* Ask the students to uncomment the line in css_lesson_1.html that includes the CSS, save it, and then refresh it in their browsers.  Ask them what changed and encourage the students to guess why.
+* Ask the students to uncomment the line in css_lesson_1.html that includes the CSS link, save it, and then refresh it in their browsers.  Ask them what changed and encourage the students to guess why.
+* Speak to students about how file is linked from one place to another.
 
 ## CSS Syntax ##
-Now we'll dig into the actual syntax of CSS.  Open up that style.css file.
+Now we'll dig into the actual syntax of CSS.  
 
 Break down a CSS rule into its components.  Be sure to cover these topics and provide examples:
 * Selectors
@@ -36,7 +37,9 @@ Show how to target elements by:
 * class (.className)
 * id (#idName)
 
-The students may have already learned what classes and ids are, but you should ask them to explain them and what each is used for.
+Note to instructor: It might be a good idea to write these down in advance of the class (element, class and ID).
+
+Discuss with students: classes and ids are, but you should ask them to explain them and what each is used for.
 
 Lead them through some CSS changes on a projector and ask what they think will happen before reloading the page.  Make some mistakes as you go to make sure the students recognize the importance of getting the syntax correct and what behavior to expect when they don't.  You can also ask what you ought to change to make something occur ("What would you guess I should change to make the background pink?").  Feel free to use sites like jsfiddle.net to present your examples.
 
