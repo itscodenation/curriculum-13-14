@@ -1,4 +1,4 @@
-# Scripted Lesson 3: Introduction to Version Control, Google Webpages and link shortners.
+# Introduction to Version Control, Google Webpages and link shortners.
 
 -----------------
 **Reminder** Please have students log their attendance at scripted.org/attendance.
