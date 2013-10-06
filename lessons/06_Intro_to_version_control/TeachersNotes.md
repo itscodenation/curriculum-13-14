@@ -3,18 +3,18 @@
 -----------------
 **Reminder** Please have students log their attendance at scripted.org/attendance.
 
-**Review** In the last lesson, students learned how make files in a directory structure and were introduced to using a text editor. 
+**Review** In the last lessons, students learned how to make a simple About Me webpage. They also learned the basics of using a text editor, linking files, and saving files in folders.
 
 **Goals**: In this lesson, students will set up a GitHub account, and will learn about how to version source code and sync it with an external source.  **Please note** that we will not be teaching students Git.  We have asked each partner school to download the Github app, and they we will use this to help teach them the basics of version control.  
 
-After you have your students add their first file to Github, we'll show them how to make a website live using Google Drive, and then we'll show the students how to shorten a link using tinyurl.com
+After you have your students add their first file to Github, and we'll show them how to make the
+When we program, we often modify, replace, fix bugs, add features, etc. However, code is very tightly linked to itsir websites live using Heroku.
 
 
 ##Discussion: What is Version Control?
 
 Start by asking the students if they've ever saved a file, and then realized that they wanted a previous version of the file? Sometimes in life, we wish we could go back to a certain point and revise something. We can't always do this in real life, but we can with computers!
-
-When we program, we often modify, replace, fix bugs, add features, etc. However, code is very tightly linked to itself. Even small changes can cause big repercussions and have effects we did or did not intend. Very often, we need to remember how things used to be in our code: how we wrote the function first, how the line worked before it started breaking, how the feature used to be implemented. 
+elf. Even small changes can cause big repercussions and have effects we did or did not intend. Very often, we need to remember how things used to be in our code: how we wrote the function first, how the line worked before it started breaking, how the feature used to be implemented. 
 
 To this end, we use version control. Because we break our code and lose information so frequently in successive saves.
 
@@ -22,7 +22,7 @@ To this end, we use version control. Because we break our code and lose informat
 
 We can't work with others on our code, unless we understand how divergent changes relate to a common source. 
 
-For example, if person A says change the first paragraph and person B says change the second, they need a way to agree on what the common document is that they are talking about.  
+For example, if Sally says change the first paragraph and Mark says change the second, they need a way to agree on what the common document is that they are talking about.  
 
 Consider using Google docs as an example of this (Two people can work in the same google doc at the same time!)
 
@@ -90,7 +90,7 @@ Explain to students that they now have the tools they need to start programming.
 ###Hosting a Webpage on Google Drive
 
 ####Open
-	Ask students if they would like to learn how to get their own webpage up and running today before the end of class.
+	Ask students if they would like to learn how to get their Aboutme webpage up and running today before the end of class.
 	Assume that they will all be enthusiastic about this idea, and then guide them through the following excercise.
 	
 Steps - May be a good idea to model this on a screen and have extra volunteers around for students who don't following along as quickly.
