@@ -4,21 +4,30 @@ Lesson 2 - Introduction to CSS
 **Goal:** Understand the role of CSS and how to make simple changes to pre-existing CSS files.
 **Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate), a modern web browser (e.g., Chrome or Firefox), and introductory understanding of HTML.
 
+Ask students to go to [http://www.scripted.org/class/CSSLesson.html](http://scripted.org/class/CSSLesson.html)
+if they want to follow along -- this is an extra resource that was created by the HVA volunteers.
+
+# Do Now #
+--------------------------------
+
+Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look around to see what CSS can do.
+
+* Ask if they notice anything similar between the different designs.  Ask if they notice anything different.
+* Make sure they recognize every design of the page has the same content (HTML), but the look and feel of each site varies drastically due to the styling provided by CSS.
+-------------------
+
 What is CSS?
 -------------------
 
 ### Explain & Show ###
 Explain CSS stands for **Cascading Style Sheets**.  CSS provides the formatting and style for a webpage, while HTML provides the content of the webpage.  Give some examples of what CSS might be used to style (e.g., font-size, background-color, element position, etc.).  
 ### Exercise ###
-Have the students visit [CSS Zen Garden](http://csszengarden.com/) and look around to see what CSS can do.
 
-* Ask if they notice anything similar between the different designs.  Ask if they notice anything different.
-* Make sure they recognize every design of the page has the same content (HTML), but the look and feel of each site varies drastically due to the styling provided by CSS.
 
 ## How is CSS added to HTML? ##
 Mention there are multiple ways to include CSS in HTML, but we'll be following one particular approach throughout our curriculum: **external style sheets**.  This just means we'll be writing our CSS in a separate file and then including it in our HTML later on.
 
-* Have students download css_lesson_1.html and style.css.   They can download the file at scripted.org/lessons.html. They should open the files in their text editors, and should open the HTML file in their browsers. At this point the page will have no CSS.
+* Have students download css_lesson_1.html and style.css.   They can download the file at [scripted.org/lessons.html](http://www.scripted.org/lessons.html). They should open the files in their text editors, and should open the HTML file in their browsers. At this point the page will have no CSS.
 * The students may or may not have already learned comments from their preceding HTML lessons.  Ask students how to write comments in HTML and if they are unaware, then briefly review them.  
 * Ask the students to uncomment the line in css_lesson_1.html that includes the CSS link, save it, and then refresh it in their browsers.  Ask them what changed and encourage the students to guess why.
 * Speak to students about how file is linked from one place to another.
