@@ -4,7 +4,7 @@ Lesson 2 - Introduction to CSS
 **Goal:** Understand the role of CSS and how to make simple changes to pre-existing CSS files.
 **Prerequisites:** Each student should have a text editor (e.g., Sublime Text, TextMate), a modern web browser (e.g., Chrome or Firefox), and introductory understanding of HTML.
 
-Ask students to go to [http://www.scripted.org/class/CSSLesson.html](http://scripted.org/class/CSSLesson.html)
+Ask students to go to [http://www.scripted.org/class/CSSLesson.html](http://scripted.org/class/CssLesson.html)
 if they want to follow along -- this is an extra resource that was created by the HVA volunteers.
 
 # Do Now #
