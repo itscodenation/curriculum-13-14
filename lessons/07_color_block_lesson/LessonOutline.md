@@ -2,7 +2,7 @@
 
 **Reminder** Don't for get to have the kids log their attendance at scripted.org/attendance !
 
-**Review** In the last assignment, the students created About me webpages to learn the basics of HTML and CSS. 
+**Review** In the last assignment, the students created About me webpages to learn the basics of HTML and CSS.  Students also learned about version control and published their first websites.
 
 **Goal** In this lesson, students will practice using Divs, IDs and Elements on a webpage.
 

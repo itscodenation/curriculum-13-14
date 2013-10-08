@@ -41,15 +41,19 @@ Let's look at creating a basic html page. There are specific rules that govern t
 1. Saving the file with extension `.html`
 2. Telling the browser which version of html you're using. This is called a a doctype declaration
 
-Have students open [a text editor](http://www.sublimetext.com/) and, on the first line type:
- `<!doctype html>` Have them save the file as: hello.html.
+**Briefly** explain why we use text editors instead of word processors: A text editor is a computer program that allows you to edit plain text. As a web designer or developer, it's going to be the primary tool that you use to manipulate your work. This is a little bit different than a word processor, such as Microsoft Word, Apple Pages, or Google Docs. You want to avoid word processors like these when you are coding because they add lots of special formatting that you can't see when you're typing.
 
+Have students open [a text editor](http://www.sublimetext.com/) and, on the first line type:
+ `<!doctype html>` Walk the students through saving the file as hello.html in a folder called About_Me_Webpage on their USB keys.
+ 
 You now have a basic html page! Next, you have to signify the beginning and the end of your document. To do this add this text:
 
 		<html>
 		</html>
 
-Everything in your html page has to go between these two tags. You will be seeing tags a lot in html, so let's talk briefly about what they are: 
+Have the students save and open the file in their browsers. Oh no! All that typing and there's nothing on the page!
+		
+Everything in your html page has to go between the two `<html>` tags. You will be seeing tags a lot in html, so let's talk briefly about what they are: 
 
 * Tags are words (tag names) surrounded by brackets, e.g., `<html>`
 * Tags allow you to "mark up" a web page. Markup gives more meaning to the elements on your page. For example, if you have a headline on the page, the browser would know to make the text larger (because it's a headline) and google would know that this is an important short summary of what's to come.

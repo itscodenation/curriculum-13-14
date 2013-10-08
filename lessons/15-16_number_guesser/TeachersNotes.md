@@ -1,6 +1,6 @@
 #ScriptEd Lesson #16-17: Guess a Number
 
-**Goal: Learn about random number generator, comparison operators, if loops, while loops.**
+**Goal: Learn about random number generator, comparison operators, if/else statements, while loops, for loops.**
 
 Today we’ll create a Number Guessing Game. Your program will ask the user to guess a
 number, and then the program will respond if the number is too high, too low or just right. To do
@@ -66,14 +66,14 @@ if(number_of_brushings < 2) {
 
 ##Random Number Generator
 
-We can use the Javascript Math.random() function to generate a random number. 
+We can use the Javascript Math.random() function to generate a random number.
 
-Math.random returns a random number between 0 (inclusive) up to but not including 1 (exclusive). 
+Math.random returns a random number between 0 (inclusive) up to but not including 1 (exclusive).
 
 Type and run this example:
 
 ```
- Math.random(); 
+ Math.random();
 ```
 
 The result will be a number between 0 and 1, including 0 but not including 1.
@@ -83,7 +83,7 @@ Math.floor rounds a number down to the nearest whole number, or integer.
 Try this example:
 
 ```
-Math.floor(1.6); 
+Math.floor(1.6);
 ```
 
 What is the result?
@@ -154,3 +154,21 @@ while loop.
 
 If the user guesses the wrong answer, your code should still print a message saying whether the
 user’s guess was too high or too low.
+
+## For Loops
+
+Just like the while loop we learned about, the for loop can be used to do things multiple times. We can use for loops to do things a set number of times. The for loop has 3 parameters.
+* The first one initializes a variable.
+* The second one is a CONDITION statement. The condition is evaluated, and if the condition is TRUE, the code within the block is executed. If it is FALSE, the loop ends.
+* The last one is the final expression. This is an expression that is evaluated after every time the loop runs. It happens before the condition is checked for the next iteration.
+Type the code below into a program and run it.
+
+```
+
+for (count = 0; count < 10; count++) {
+  console.log(count);
+}
+
+### Your Turn
+
+Create a reverse number guessing game where the computer guesses the number and you tell it if it is right or not. The computer should guess each number between 0 and 10, starting with 1, then 2, then 3, etc.

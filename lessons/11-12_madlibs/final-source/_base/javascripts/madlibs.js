@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+	alert("Hello! Welcome to my Mad Libs game!");
+
 	var story = "It has often been said that 'a dog is a man's best NOUN_1.' " +
 	"Dogs are very ADJECTIVE_1 and can be taught many ADJECTIVE_2 tricks. " +
 	"A dog can be trained to carry a/an NOUN_2 in his mouth. " + 

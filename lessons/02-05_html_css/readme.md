@@ -8,6 +8,7 @@ These lessons introduce beginners to the fundamentals of web design with HTML an
 * Exercise 1b: Add more details to "About.me"
 
 ## Lesson 2 - Introduction to CSS
+(Please note: Parts A, B, and C of Lesson 2 are included in Lesson_2a.md)
 * Lesson 2a: What is CSS?
 * Exercise: Go to CSS Zen Garden website to see the difference CSS can make
 * Lesson 2b: How is CSS added to HTML?
