@@ -93,7 +93,7 @@ Explain to students that they now have the tools they need to start programming.
 	Ask students if they would like to learn how to get their Aboutme webpage up and running today before the end of class.
 	Assume that they will all be enthusiastic about this idea, and then guide them through the following excercise.
 	
-Steps - May be a good idea to model this on a screen and have extra volunteers around for students who don't following along as quickly.
+Steps - It may be a good idea to model this on a screen and have extra volunteers around for students who don't following along as quickly.
 
 1. Have students sign up for a Google Account if they don't have one already.  It might be a good idea to separate the class into students who have google accounts and students who do not so that the students with google accounts don't get stalled.  Encourage students who are creating new accounts to WRITE DOWN THEIR USERNAMES and PASSWORDS (Our experience has been that students will lose / forget these!)
 2. Have students navigate to Google Drive within their Google Accounts
