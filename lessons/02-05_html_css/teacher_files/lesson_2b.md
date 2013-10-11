@@ -92,7 +92,9 @@ Let's recall what we know about CSS:
 
 Let's learn another CSS selector and property. If the selector starts with a period, it's a class selector. You can pick any word you want for the class. It will apply to any HTML tag that has a `class` attribute with that value.
 
-For example, I can label different list items with `class="odd"` or `class="even"`, and then set different styles for the two classes. On that note, here's a new CSS property: `list-style-type`, which can take values such as `disk, circle, square, none`.
+For example, I can label different list items with `class="odd"` or `class="even"`, and then set different styles for the two classes. See http://jsfiddle.net/AYM58/1/. On that note, here's a new CSS property: `list-style-type`, which can take values such as `disk, circle, square, none`.
+
+
 
 There is a lot to CSS, there are many selectors, lots of properties and special values. We can't learn all, nor do we need to -- we can always look things up. Hand out CSS Cheat Sheet for reference.
 
@@ -111,6 +113,8 @@ Here's a new self-closing tag: `<link rel="stylesheet" href="style.css" />`. It 
 In your Documents folder, create a subfolder called `Lesson4`. Open your editor (SublimeText), and create two empty files. Save both in the `Lesson4` folder as `mypage.html` and `mystyle.css`.
 
 Copy and paste your html from jsfiddle into `mypage.html`, an the CSS into `mystyle.css`. Add `<html>` &amp; co. tags, and add an appropriate `<link>` tag to tie the two files together.
+
+Be sure to save to your network folder.
 
 ### Assignment
 
