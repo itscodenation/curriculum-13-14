@@ -35,4 +35,6 @@ Make sure to point out all of the different points indicated in the graphic belo
 
 Direct students to this page for their independent work:
 
-[Color Block Assignment]https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/07_color_block_lesson/student-template/color_block_hw.md)
+[Color Block Assignment](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/07_color_block_lesson/student-template/color_block_hw.md)
+
+You may also want to direct students to this link: http://scripted.org/class/colorblock.pdf
