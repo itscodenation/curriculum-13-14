@@ -1,4 +1,4 @@
-### Lesson 8: Color Block Project
+### Lesson 7: Color Block Project
 
 **Reminder** Don't for get to have the kids log their attendance at scripted.org/attendance !
 
