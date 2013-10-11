@@ -65,6 +65,8 @@ For example (open in jsfiddle: http://jsfiddle.net/AYM58/ ):
       <li>Los Angeles</li>
       <li>Chicago</li>
     </ol>
+    
+Inside each `<li>` tag, you can nest anything, e.g. another list. That's how you would do sublists.
 
 ### Practice
 
@@ -86,58 +88,34 @@ Let's recall what we know about CSS:
   * `font-size`
   * `font-weight`
 
+### More CSS
 
+Let's learn another CSS selector and property. If the selector starts with a period, it's a class selector. You can pick any word you want for the class. It will apply to any HTML tag that has a `class` attribute with that value.
 
-### Explain & Show ###
-Explain CSS stands for **Cascading Style Sheets**.  CSS provides the formatting and style for a webpage, while HTML provides the content of the webpage.  Give some examples of what CSS might be used to style (e.g., font-size, background-color, element position, etc.).  
-### Exercise ###
+For example, I can label different list items with `class="odd"` or `class="even"`, and then set different styles for the two classes. On that note, here's a new CSS property: `list-style-type`, which can take values such as `disk, circle, square, none`.
 
+There is a lot to CSS, there are many selectors, lots of properties and special values. We can't learn all, nor do we need to -- we can always look things up. Hand out CSS Cheat Sheet for reference.
 
-## How is CSS added to HTML? ##
-Mention there are multiple ways to include CSS in HTML, but we'll be following one particular approach throughout our curriculum: **external style sheets**.  This just means we'll be writing our CSS in a separate file and then including it in our HTML later on.
+### Practice
 
-* Have students download css_lesson_1.html and style.css.   They can download the file at [scripted.org/lessons.html](http://www.scripted.org/lessons.html). They should open the files in their text editors, and should open the HTML file in their browsers. At this point the page will have no CSS.
-* The students may or may not have already learned comments from their preceding HTML lessons.  Ask students how to write comments in HTML and if they are unaware, then briefly review them.  
-* Ask the students to uncomment the line in css_lesson_1.html that includes the CSS link, save it, and then refresh it in their browsers.  Ask them what changed and encourage the students to guess why.
-* Speak to students about how file is linked from one place to another.
+In your lists on jsfiddle.net, add a class called `highlight` to some of the list items. And write the CSS code to change the background of those list items to yellow.
 
-## CSS Syntax ##
-Now we'll dig into the actual syntax of CSS.  
+### Linking HTML to CSS
 
-Break down a CSS rule into its components.  Be sure to cover these topics and provide examples:
-* Selectors
-* Declarations (Property-Value pairs)
-* Syntax rules like opening and closing curly braces, colons between properies and values,  and separating declarations with semi-colons
+We've been applying styles to HTML on jsfiddle. It's time to do it for our own pages.
 
-### Selectors ###
-Show how to target elements by:
-* element type (div, p, img, etc.)
-* class (.className)
-* id (#idName)
+Here's a new self-closing tag: `<link rel="stylesheet" href="style.css" />`. It goes in the `<head>` of an HTML document, and says to apply the given CSS file to this document.
 
-Note to instructor: It might be a good idea to write these down in advance of the class (element, class and ID).
+### Practice
 
-Discuss with students: classes and ids are, but you should ask them to explain them and what each is used for.
+In your Documents folder, create a subfolder called `Lesson4`. Open your editor (SublimeText), and create two empty files. Save both in the `Lesson4` folder as `mypage.html` and `mystyle.css`.
 
-Lead them through some CSS changes on a projector and ask what they think will happen before reloading the page.  Make some mistakes as you go to make sure the students recognize the importance of getting the syntax correct and what behavior to expect when they don't.  You can also ask what you ought to change to make something occur ("What would you guess I should change to make the background pink?").  Feel free to use sites like jsfiddle.net to present your examples.
+Copy and paste your html from jsfiddle into `mypage.html`, an the CSS into `mystyle.css`. Add `<html>` &amp; co. tags, and add an appropriate `<link>` tag to tie the two files together.
 
-### Pseudo Selectors ###
-Briefly mention that we've only shown the very basics of CSS and that it's possibly to do much more with it.  For example, you can target elements based on certain user actions (show :hover) or on an element's position in the html (p .childId).  Consider showing some live examples on the projector.
+### Assignment
 
-### Rule Precedence ###
-If multiple rules apply to an element and they set the same property to different values, what is the resulting value?  The short answer is the more specific rules take precedence over the less specific.  This isn't a topic that needs to be discussed, but be aware of this in case a student asks.
+Create an `About me` page with three sections: your hobbies, your classes, and your favorite anything (e.g. books). Create a CSS file, and tie it to this page using `<link>`. Add styles to make it look as nice as you can. Consider fonts, backgrounds, borders. Read up on `font-family`.
 
-## Applying What We've Learned ##
-### Resources ###
-Make sure the students have this (CSS Cheat Sheet)[http://www.pxleyes.com/blog/wp-content/uploads/2010/03/css-cheatsheet.pdf] available to help them along while they work on the subsequent exercises.  Also, encourage them to try using Google if they have any questions, or they can always ask a volunteer for help.
+Bonus 1: set up an image as a background for your page.
+Bonus 2: read up on CSS layout, and make your three lists show up side-by-side using CSS.
 
-### Exercise ###
-Have students change the appearance of the css_lesson_1.html in the browser by changing style.css.  They should make the following changes:
-* Make the fox gif smaller
-* Change the background and font color of "Greetings, human! I am robot text"
-* Change the link so it goes to your favorite site (besides ScriptEd.org)
-* Bonus: Change the fox image to another image
-* Bonus: Create an image that links to another site when clicked
-
-### Exercise ###
-Create a CSS file and and include it in your "About.me" page.  Now style your "About.me" page by altering your CSS file!  As the teacher you may want to announce this exercise at the same time you announce the previous exercise.  Tell the students once they complete the previous exercise they should move on to this one.
