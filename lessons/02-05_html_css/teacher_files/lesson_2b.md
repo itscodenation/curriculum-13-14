@@ -1,8 +1,8 @@
 Lesson 2b - More on HTML and CSS
 --------------------------------
 
-**Goal:** Review HTML, including nesting, learn more tags, more CSS, and how to tie HTML and CSS together.
-**Prerequisites:** One HTML lesson, one CSS lesson, text editor, browser.
+- **Goal:** Review HTML, including nesting, learn more tags, more CSS, and how to tie HTML and CSS together.
+- **Prerequisites:** One HTML lesson, one CSS lesson, text editor, browser.
 
 ### Do Now
 1. Do attendance at http://scripted.org/attendance
@@ -120,6 +120,6 @@ Be sure to save to your network folder.
 
 Create an `About me` page with three sections: your hobbies, your classes, and your favorite anything (e.g. books). Create a CSS file, and tie it to this page using `<link>`. Add styles to make it look as nice as you can. Consider fonts, backgrounds, borders. Read up on `font-family`.
 
-Bonus 1: set up an image as a background for your page.
-Bonus 2: read up on CSS layout, and make your three lists show up side-by-side using CSS.
+- Bonus 1: set up an image as a background for your page.
+- Bonus 2: read up on CSS layout, and make your three lists show up side-by-side using CSS.
 
