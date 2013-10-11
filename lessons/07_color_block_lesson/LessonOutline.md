@@ -29,7 +29,7 @@ Please note -- it might be easier to add the style into the HTML file itself.  I
 
 Make sure to point out all of the different points indicated in the graphic below!
 
-![Alt text](teachersnotes/imgs/colorblockteachersnotes.png)
+![Alt text](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/07_color_block_lesson/teachersnotes/imgs/ColorBlockTeachersNotes.png)
 
 ###In Class Assignment:
 
