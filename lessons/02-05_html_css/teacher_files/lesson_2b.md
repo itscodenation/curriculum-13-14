@@ -42,9 +42,22 @@ Let's recall what we know about HTML.
 
 * A link has two parts, the shown part, and the address to take you to. Who can explain which part goes where?
 
+### Sharing code
+
+Last time we used JSFiddle to experiment with code. JSBin is another similar site, and I like it a bit better, so we'll use that one. We will eventually come back to editing files in an editor, and learn how programmers share code in the real world, but for now, JSBin will make our lives easier.
+
+Please visit http://jsbin.com/scripted-cr1/4/quiet. You'll see a spreadsheet. Click "Edit" next to your name, and fill in the JSBin Link with the URL of the JSBin from your Do-Now. We'll continue working in the same JSBin today.
+
+### Using JSBin
+
+JSBin has some nice features. Firstly, it automatically shows your changes as you type. Secondly, it tells you whether you made a mistake and where. Try a few mistakes right now:
+
+1. Open a `<p>` tag, but close `</q>` tag. You'll see that the mismatched tag turns red.
+2. Try deleting the closing `</head>` tag. JSBin highlights `</html>` in red, because you haven't closed the inner tag, and closing the outer one.
+
 ### HTML nesting
 
-An important aspect of HTML is that it you can nest tags. E.g. it's normal to have nested tags like `html->body->p->a`, and it's common to have much deeper structures. When nesting multiple levels, you should format your code to make it easier to read. For that we use indentation, i.e. add spaces at the start of the lines. E.g.
+An important aspect of HTML is that it you can nest tags. E.g. it's normal to have nested tags like `html->body->p->a`, and it's common to have much deeper structures. When nesting multiple levels, you should format your code to make it easier to read. For that we use indentation, i.e. add spaces at the start of the lines. E.g. (demonstrate on screen: http://jsbin.com/EsIkiMA/1/edit):
 
     <html>
       <body>
@@ -58,13 +71,13 @@ The opening and closing tags have the same offset (or indentation), and everythi
 
 The browser doesn't care about spaces. So why does indentation matter? (Humans care, and when programming, remember, your code is as important for humans to understand, as for computers.)
 
+You can indent code by placing the cursor in the beginning of the line and adding (or deleting) spaces or tabs. JSBin makes indenting even easier: use Ctrl+[ and Ctrl+], and you don't even have to move the cursor. Try it now.
+
 ### More HTML tags
 
-Let's learn some more tags.
+How do you make a bulleted list? There is a tag `<ul>` (for "unordered list"). A numbered list is enclosed in tags `<ol>` instead (for "ordered list"). In either case, each list item is enclosed in `<li>` tags (for "list item").
 
-To make a bulleted list, there is a tag `<ul>` (for "unordered list"). A numbered list is enclosed in tags `<ol>` instead (for "ordered list"). In either case, each list item is enclosed in `<li>` tags (for "list item").
-
-For example (open in jsfiddle: http://jsfiddle.net/AYM58/ ):
+For example (open in jsbin: http://jsbin.com/alALito/1/edit ):
 
     <p>Some colors:</p>
     <ul>
@@ -84,7 +97,7 @@ Inside each `<li>` tag, you can nest anything, e.g. another list. That's how you
 
 ### Practice
 
-On jsfiddle.net, create your own lists of 3-4 items, one numbered and one bulleted. List your favorite actors, sports teams, colors, planets, whatever.
+On the JSBin page, create your own lists of 3-4 items, one numbered and one bulleted. List your favorite actors, sports teams, colors, planets, whatever.
 
 ### CSS Review
 
@@ -102,38 +115,26 @@ Let's recall what we know about CSS:
   * `font-size`
   * `font-weight`
 
+### Practice
+
+On the JSBin page, add styles to list items (`li` selector) to make them blue.
+
 ### More CSS
 
 Let's learn another CSS selector and property. If the selector starts with a period, it's a class selector. You can pick any word you want for the class. It will apply to any HTML tag that has a `class` attribute with that value.
 
-For example, I can label different list items with `class="odd"` or `class="even"`, and then set different styles for the two classes. See http://jsfiddle.net/AYM58/1/. On that note, here's a new CSS property: `list-style-type`, which can take values such as `disk, circle, square, none`.
-
-
+For example, I can label different list items with `class="odd"` or `class="even"`, and then set different styles for the two classes. See http://jsbin.com/uVUqima/1/edit. On that note, here's a new CSS property: `list-style-type`, which can take values such as `disk, circle, square, none`.
 
 There is a lot to CSS, there are many selectors, lots of properties and special values. We can't learn all, nor do we need to -- we can always look things up. Hand out CSS Cheat Sheet for reference.
 
 ### Practice
 
-In your lists on jsfiddle.net, add a class called `highlight` to some of the list items. And write the CSS code to change the background of those list items to yellow.
+In your lists on jsbin.com, add a class called `highlight` to some of the list items. And write the CSS code to change the background of those list items to yellow.
 
-### Linking HTML to CSS
+### Linking HTML and CSS.
 
-We've been applying styles to HTML on jsfiddle. It's time to do it for our own pages.
+Copy and paste your JSBin URL into a new tab, and replace the last word "edit" with "quiet". You'll see just your page with no extras.
 
-Here's a new self-closing tag: `<link rel="stylesheet" href="style.css" />`. It goes in the `<head>` of an HTML document, and says to apply the given CSS file to this document.
+Now right-click on the page to get a menu, and select "View Source". You should see the source code of this page.  You edited HTML and CSS separately, but now you see both included in a single listing. Can someone explain how that CSS is inserted into the HTML page? (Inside `<script>` tags).
 
-### Practice
-
-In your Documents folder, create a subfolder called `Lesson4`. Open your editor (SublimeText), and create two empty files. Save both in the `Lesson4` folder as `mypage.html` and `mystyle.css`.
-
-Copy and paste your html from jsfiddle into `mypage.html`, an the CSS into `mystyle.css`. Add `<html>` &amp; co. tags, and add an appropriate `<link>` tag to tie the two files together.
-
-Be sure to save to your network folder.
-
-### Assignment
-
-Create an `About me` page with three sections: your hobbies, your classes, and your favorite anything (e.g. books). Create a CSS file, and tie it to this page using `<link>`. Add styles to make it look as nice as you can. Consider fonts, backgrounds, borders. Read up on `font-family`.
-
-- Bonus 1: set up an image as a background for your page.
-- Bonus 2: read up on CSS layout, and make your three lists show up side-by-side using CSS.
-
+This is one way of including CSS into a page. For larger websites, a better way is using a `<link>` tag. We'll cover it later.
