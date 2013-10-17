@@ -2,7 +2,7 @@ Lesson 2b - More on HTML and CSS
 --------------------------------
 
 - **Goal:** Review HTML, including nesting, learn more tags, more CSS, and how to tie HTML and CSS together.
-- **Prerequisites:** One HTML lesson, one CSS lesson, text editor, browser.
+- **Prerequisites:** One HTML lesson, one CSS lesson, browser, JSBin.
 
 ### Do Now
 1. Do attendance at http://scripted.org/attendance
