@@ -7,7 +7,6 @@ Lesson 2b - More on HTML and CSS
 ### Do Now
 1. Do attendance at http://scripted.org/attendance
 2. In jsbin.com, create sentence "Hello, ScriptEd!", with "ScriptEd" a link to http://scripted.org.
-3. Make the link open in a new window (search google if unsure).
 
 ### Homework review
 
@@ -41,6 +40,7 @@ Let's recall what we know about HTML.
     `<img src="URL" />` | image - self-closing tag.
 
 * A link has two parts, the shown part, and the address to take you to. Who can explain which part goes where?
+* An example of an attribute: add title="hi there" to your link. Now figure out what that does. Feel free to use Google.
 
 ### Sharing code
 
