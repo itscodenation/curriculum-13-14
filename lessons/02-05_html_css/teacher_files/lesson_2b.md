@@ -6,8 +6,22 @@ Lesson 2b - More on HTML and CSS
 
 ### Do Now
 1. Do attendance at http://scripted.org/attendance
-2. In jsfiddle.net create a sentence "Hello, ScriptEd!", with "ScriptEd" a link to http://scripted.org.
+2. In jsbin.com, create sentence "Hello, ScriptEd!", with "ScriptEd" a link to http://scripted.org.
 3. Make the link open in a new window (search google if unsure).
+
+### Homework review
+
+You were asked to do two things for homework: a lesson on codecademy.com, and add lists to your About-Me page.
+
+Firstly, I want to apologize that codecademy lesson was so long. If you worked through the entire thing, you must have learned a lot.
+
+1. Raise your hand if you completed that whole lesson.
+2. Raise your hand if you did part of it.
+3. Raise your hand if you did none of it.
+4. Raise your hand if you added some lists to your About-Me page.
+5. Raise your hand if you didn't realize there was homework.
+
+Going forward, we will have homework on Friday every week. It will be hands-on: to practice the material we learn in class. This class goes fast, so it is very important that you do the homework. We'll assign it on Friday, and you'll have to submit it by Tuesday night. We will review each person's homework on Wednesday, and then we address on Thursday any difficulties you may have had.
 
 
 ### HTML Review
