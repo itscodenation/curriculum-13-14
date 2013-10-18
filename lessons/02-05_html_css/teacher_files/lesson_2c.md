@@ -16,7 +16,7 @@ Do the following in JSBin (e.g. at http://jsbin.com/uVUqima/3/edit), with studen
 
 What if I want one list with a green border, and the second list with an orange border? (Give time to realize the problem.)
 
-So far the only selector we've learned is to specify a tag. Both of my lists us "UL" tag, so I can't distinguish them this way. Fortunately, there are more selectors.
+So far the only selector we've learned is to specify a tag. Both of my lists use "UL" tag, so I can't distinguish them this way. Fortunately, there are more selectors.
 
 If the selector starts with a period, it's called a _class selector_. You can pick any word you want for the class. It will apply to any HTML tag that has a `class` attribute with that value. (Remember what is an attribute in HTML? name=value, no spaces around '=', usually quotes around value.)
 
