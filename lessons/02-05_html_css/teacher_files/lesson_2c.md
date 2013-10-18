@@ -12,7 +12,7 @@ Lesson 2c - CSS selectors and layouts
 
 Do the following in JSBin (e.g. at http://jsbin.com/uVUqima/3/edit), with students following (and free to copy to their own browser). Experiment with borders. Change colors, width, "solid" -> "dashed" -> "dotted". Settle on solid. Add "border-radius: 10px".
 
-### Class, ID selectors
+### Class selectors
 
 What if I want one list with a green border, and the second list with an orange border? (Give time to realize the problem.)
 
@@ -26,6 +26,8 @@ But what about the style for plain `ul`? That still applies! (E.g. specify `bord
 
 What if I don't want to? I can give that list a `class` to, and make the styles more specific.
 
+
+
 ### Practice
 
 In your lists on jsbin.com, add a class `highlight` to some of the list items. Then write CSS code to change the background of those list items to yellow.
@@ -35,6 +37,10 @@ Ask for a volunteer to showcase what they are doing on the screen. Type their JS
 If you are done, check out `list-style-type` property. Try values such as `square`, `circle`, or `none`.
 
 There is a lot to CSS, there are many selectors, lots of properties and special values. We can't learn all, nor do we need to -- we can always look things up. Hand out CSS Cheat Sheet for reference.
+
+### ID Selector
+
+The ID selector is similar to class. In CSS, start with `#`, e.g. `#foo`. In HTML, add `id` attribute, e.g. `id="foo"`. It works the same way as `class`, but it's used a bit differently: the ID identifies a unique element in the page, whereas you can add the same class attribute to many elements in the page.
 
 ### Layouts
 
@@ -54,4 +60,34 @@ Aha! We got what we wanted: two lists side-by-side.
 
 But what if I really want the list with my paragraph headings side-by-side? Could it be impossible?!
 
-Of course not.
+Of course not. I can make a block that contains both the paragraph and the list, and instead of positioning just the list, I can position that entire block. There is a special tag for it: `<div>`. Its purpose is to just group elements, often for layouts. Think of "div" as standing for "division". It allows you to divide up the page into logical groups.
+
+Let's try. Enclose both lists in divs. Move the `display: inline-block` to the div.
+
+Oh look, we got it side-by-side!
+
+
+### Padding and Margin.
+
+Our two divs are too close. CSS offers two mechanisms to deal with that:
+
+1. `padding: 10px` adds padding inside the borders.
+2. `margin: 10px` adds a margin outside the borders.
+
+For both, there are variations such as "padding-left", "margin-top", which allow you to specify just one side of the padding or margin.
+
+Let's try. Add a border to the div. Add padding, then margin. Settle on just `margin-right: 20px`.
+
+A list has padding on the left without even specifying it. But we can change it. Try setting `padding: 0px` on the `ul` element.
+
+### :hover
+
+Let me just tell you about one more selector because it's so cool. If you add `:hover` to any other selector, then the styles you specify will only be applied when you move your mouse over that element.
+
+E.g. it's an easy way to highlight the menu item that you are mousing over.
+
+Let's try. Add `li:hover` with `background-color`.
+
+### Homework
+
+
