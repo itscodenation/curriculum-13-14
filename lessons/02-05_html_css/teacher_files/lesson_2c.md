@@ -90,4 +90,8 @@ Let's try. Add `li:hover` with `background-color`.
 
 ### Homework
 
+The assignment is to write the HTML and CSS to reproduce a particular look and layout: http://jsbin.com/OCaCukO/2.
+There are hints to help you along. This isn't an easy project, and will likely require some research, and reading
+up about css properties on your own. Use the mailing list, and use it early! The assignment is due Tuesday night.
+
 
