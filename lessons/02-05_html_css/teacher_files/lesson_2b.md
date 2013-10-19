@@ -1,8 +1,8 @@
-Lesson 2b - More on HTML and CSS
+Lesson 2b - More on HTML and CSS (Cristo Rey 2013)
 --------------------------------
 
 - **Goal:** Review HTML, including nesting, learn more tags, more CSS, and how to tie HTML and CSS together.
-- **Prerequisites:** One HTML lesson, one CSS lesson, browser, JSBin.
+- **Prerequisites:** One HTML lesson, one CSS lesson, JSBin.
 
 ### Do Now
 1. Do attendance at http://scripted.org/attendance
@@ -18,7 +18,7 @@ Firstly, I want to apologize that codecademy lesson was so long. If you worked t
 2. Raise your hand if you did part of it.
 3. Raise your hand if you did none of it.
 4. Raise your hand if you added some lists to your About-Me page.
-5. Raise your hand if you didn't realize there was homework.
+5. Raise your hand if you didn't realize there was homework. (In Cristo Rey, we didn't need this question, because everyone raised their hand for 2 or 3.)
 
 Going forward, we will have homework on Friday every week. It will be hands-on: to practice the material we learn in class. This class goes fast, so it is very important that you do the homework. We'll assign it on Friday, and you'll have to submit it by Tuesday night. We will review each person's homework on Wednesday, and then we address on Thursday any difficulties you may have had.
 
@@ -46,7 +46,7 @@ Let's recall what we know about HTML.
 
 Last time we used JSFiddle to experiment with code. JSBin is another similar site, and I like it a bit better, so we'll use that one. We will eventually come back to editing files in an editor, and learn how programmers share code in the real world, but for now, JSBin will make our lives easier.
 
-Please visit http://jsbin.com/scripted-cr1/4/quiet. You'll see a spreadsheet. Click "Edit" next to your name, and fill in the JSBin Link with the URL of the JSBin from your Do-Now. We'll continue working in the same JSBin today.
+Please visit http://jsbin.com/scripted-cr1/4/quiet. You'll see a spreadsheet. Click "Edit" next to your name, and fill in the JSBin Link with the URL of the JSBin from your Do-Now. We'll continue working in the same JSBin today. (This was an experiment. It's not as useful as I hoped, and has issues. Best to skip this.)
 
 ### Using JSBin
 
@@ -118,6 +118,10 @@ Let's recall what we know about CSS:
 ### Practice
 
 On the JSBin page, add styles to list items (`li` selector) to make them blue.
+
+* * *
+In Cristo Rey, this was the end of the lesson.
+* * *
 
 ### More CSS
 
