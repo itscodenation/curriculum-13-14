@@ -1,4 +1,4 @@
-Lesson 2c - CSS selectors and layouts
+Lesson 2c - CSS selectors and layouts (Cristo Rey 2013)
 -------------------------------------
 
 - **Goal:** Learn more about CSS selectors, and learn how to use CSS for layouts.
@@ -65,6 +65,14 @@ Of course not. I can make a block that contains both the paragraph and the list,
 Let's try. Enclose both lists in divs. Move the `display: inline-block` to the div.
 
 Oh look, we got it side-by-side!
+
+### Practice
+
+Try to put your own lists side-by-side.
+
+* * *
+This was the end of the lesson. Plus, I mentioned homework (see below), and sent it by email the same day.
+* * *
 
 
 ### Padding and Margin.
