@@ -4,6 +4,10 @@
 
 **Prerequisites: Understand HTML IDs.**
 
+####Alternate to Lesson 1: 
+[Click Here](https://docs.google.com/presentation/d/1CAMz_T9qWWL6GSNx70ZtxwLm-AAN0sBgPaQMDtJ3ZD0/edit?usp=sharing) to view an alternate introduction to Javascript.
+ This lesson introduces function calls, variables, input-output, comments, and loops. It can be used in addition to/in place of the tipping calculator lesson.
+
 ##Variables
 
 Variables are names we assign to values. Like in math, except the value doesn't have to be a number, it can be anything.
