@@ -20,7 +20,7 @@ It is like putting 1 into a bucket marked a.
 
 ###Identifiers
 
-The name you give to a value is called an identifier. For the purposes of this class, a JavaScript identifier must start with a letter, subsequent characters can be letters or numbers. No spaces are allowed. JavaScript is case sensitive, so `var my_code` is different from `var My_Code`.
+The name you give to a variable is called an identifier. For the purposes of this class, a JavaScript identifier must start with a letter, subsequent characters can be letters or numbers. No spaces are allowed. JavaScript is case sensitive, so `var my_code` is different from `var My_Code`.
 
 To assign a value to an identifier, we use a special keyword, `var`. This means you cannot have a variable called `var`, because JavaScript is already using it. We use the keyword `var` to assign numbers and strings to words that represent them, such as
 
@@ -31,7 +31,7 @@ To assign a value to an identifier, we use a special keyword, `var`. This means 
      
 The second of these assignments is called a "string" which you can use to store any collection of letters or numbers. We will cover this idea in more detail in later classes.
 
-There are some other words that you cannot use as identifiers, like 
+There are some other words you cannot use as identifiers, like 
 
 ```
     break
@@ -98,7 +98,7 @@ Arithmetic operators are used to perform arithmetic operations between variables
 
 \* is used to multiply values.
 
-\\ is used to divide values.
+/ is used to divide values.
 
 ###Order of Operations
 
