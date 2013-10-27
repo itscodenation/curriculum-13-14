@@ -15,3 +15,15 @@ These lessons introduce beginners to the fundamentals of web design with HTML an
 * Lesson 2c: CSS Syntax
 * Exercise: Experiment with the given html and css
 * Exercise: Style your "About.me" page
+
+####Extra Volunteer Created HTML and CSS Resources:
+* HTML and CSS Vocab List (by Edwin Fuquen): https://docs.google.com/document/d/1fZj1jQFrGXQXdQZKmZ8a4bf5SBanf6n2QUBcqVWVJg8/edit?usp=sharing
+* ScriptEd HTML/CSS Pop Quiz (BK International): https://drive.google.com/file/d/0B2fF2axUr9M_eEd6cDBJLTJMOXM/edit?usp=sharing
+* ScriptEd HTML/CSS Pop Quiz Answer Key (BK International): https://docs.google.com/a/scripted.org/file/d/0B2fF2axUr9M_bVoyYU5XdWNGM3c/edit?usp=drive_web
+ 
+####HTML / CSS Homework Assignments (by Dmitry S. at Cristo Rey): 
+*   http://jsbin.com/OwewAHa/2/quiet
+*   http://jsbin.com/OCaCukO/3/quiet
+   
+####About Me Webpage Lesson Instructions for Students:
+* http://scripted.org/class/html2.html
