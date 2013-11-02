@@ -1,5 +1,5 @@
 #ScriptEd Lesson #16-17: Guess a Number
-
+**Reminder:** Have students log their attendance at scripted.org/attendance
 **Goal: Learn about random number generator, comparison operators, if/else statements, while loops, for loops.**
 
 Today we’ll create a Number Guessing Game. Your program will ask the user to guess a
