@@ -26,4 +26,4 @@ Show students examples on the screen of string replacement methods.  Ask them to
 
 ####Step 3 -- Student Project (You Do!)
 
-Direct students to [this link](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/14-15_substring/student-template/substringstudentnotes.md) or display the link on the screen. They must create the program as directed in that link.
+Direct students to [this link](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/13-14_substring/student-template/substringstudentnotes.md) or display the link on the screen. They must create the program as directed in that link.
