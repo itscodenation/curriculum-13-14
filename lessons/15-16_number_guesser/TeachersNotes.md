@@ -27,9 +27,9 @@ Now, change the number of turkeys to 2. What happens?
 Above, we used an > ('greater than' sign). Here are some other operators we can use:
 
 * < Less Than
+* > Greater Than
 * <= Less Than or Equal To
 * >= Greater Than or Equal To
-* > Great Than
 * === Equals
 * !== Does Not Equal
 
