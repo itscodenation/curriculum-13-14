@@ -174,6 +174,7 @@ Just like the while loop we learned about, the for loop can be used to do things
 * The first one initializes a variable.
 * The second one is a CONDITION statement. The condition is evaluated, and if the condition is TRUE, the code within the block is executed. If it is FALSE, the loop ends.
 * The last one is the final expression. This is an expression that is evaluated after every time the loop runs. It happens before the condition is checked for the next iteration.
+
 Type the code below into a program and run it.
 
     for (count = 0; count < 10; count++) {
