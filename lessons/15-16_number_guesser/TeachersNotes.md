@@ -125,6 +125,7 @@ Write a program that does the following:
 1. Generates a random number between 1 and 10
 2. Prompts the user for his or her guess of what the number is
 3. Compares the user's guess to the randomly generated number, and prints whether the user's guess was correct or not
+4. Bonus: Change your code so it prints whether the user's guess was correct, too high, or too low.
 
 ##While Loops
 
