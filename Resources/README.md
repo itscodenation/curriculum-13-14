@@ -11,7 +11,7 @@
 
 [Cristo Rey Monday / Wednesday Alternative Class - Lessons](https://drive.google.com/a/scripted.org/folderview?id=0B2fF2axUr9M_MVpIbTJkT0o5dDA&usp=sharing)
 
-[Cristo Rey Thursday / Friday Class Additional Lessons]()
+[Cristo Rey Thursday / Friday Class Additional Lessons](https://drive.google.com/a/scripted.org/folderview?id=0B2fF2axUr9M_ODdWTmsyelRNVms&usp=sharing)
 
 ###Jeopardy Games
 
