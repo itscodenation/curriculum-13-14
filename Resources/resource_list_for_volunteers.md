@@ -6,6 +6,7 @@
 -[Khan Academy Design Guidelines](http://cs-blog.khanacademy.org/2013/08/our-design-guidelines-for-teaching.html)
 
 -[Interactive Teaching Tips](https://github.com/ScriptEdcurriculum/curriculum/blob/master/Resources/interactive_techniques_for_teaching.md)
+
 -[Teach like a Champion: 49 Techniques that Put Students on the Path to College: Notes by Manish Sinha](https://drive.google.com/file/d/0B2fF2axUr9M_cWk1My1OaHp4Vy04dTFtcDQ3WXFZbEJnemNN/edit?usp=sharing)
 
 ###HTML and CSS
