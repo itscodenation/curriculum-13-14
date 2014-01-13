@@ -7,6 +7,8 @@
 
 -[Interactive Teaching Tips](https://github.com/ScriptEdcurriculum/curriculum/blob/master/Resources/interactive_techniques_for_teaching.md)
 
+-[Teach like a Champion: 49 Techniques that Put Students on the Path to College: Notes by Manish Sinha](https://drive.google.com/file/d/0B2fF2axUr9M_cWk1My1OaHp4Vy04dTFtcDQ3WXFZbEJnemNN/edit?usp=sharing)
+
 ###HTML and CSS
 
 - [Chrome Dev Tools](https://developers.google.com/chrome-developer-tools/) - The best way for students to play with html and css and get feedback from the changes is to play with websites witht the Chrome Dev Tools. Easy to do on any pages. Immediate feedback. Here's the guide.
