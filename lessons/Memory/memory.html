@@ -9,21 +9,21 @@
       -- hard-coded widths and heights (for now), based on a 12-tile board
       */
       body {
-        background-color: lightgrey;
+        background-color: #D3E3F5;
         font-family: Arial, sans-serif;
         color: darkgrey;
         margin: 0;
         padding: 10px;
       }
         h1 {
-          color: black;
+          color: tomato;
           text-align: center;
         }
         #game_board {
-          border-color: grey;
-          border-style: solid; 
-          border-width: 1px; 
-            /*OR border: 1px soild grey;*/
+          border-color: tomato;
+          border-style: solid;
+          border-width: 2px; 
+            /*OR border: 2px soild tomato;*/
           height: 450px;
           margin: 0 auto;
           padding: 0;
@@ -32,36 +32,38 @@
         }
           .tile {
             background-color: white;
-            border-color: lightgrey;
+            background-image: none;
+            border-color: peachpuff;
             border-style: solid; 
             border-width: 2px; 
-              /*OR border: 1px soild lightgrey;*/
+              /*OR border: 1px soild peachpuff;*/
             display: inline-block;
             height: 146px;
             vertical-align: top;
             width: 146px; 
           }
+            .tile img {visibility: hidden;}
             .tile:hover {
-              border-color: magenta;
+              background-color: orange;
+              border-color: darkorange;
               border-style: solid;
               border-width: 2px;
                 /*OR border: 1px soild magenta;*/
             }
+            .flipped img {visibility: visible;}
             .flipped {
-              background-image: url('http://placekitten.com/300/300');
               background-position: center center;
               background-repeat: no-repeat;
                 /*OR background: lightpink url('http://placekitten.com/300/300') center center no-repeat;*/
               border-color: lightpink;
             }
             .paired {
-              background-image: url('');
-              background-color: lightgreen;
-              border-color: lime;
+              border-color: black;
               border-style: solid;
               border-width: 2px;
-                /*OR border: 1px solid lime;*/
+                /*OR border: 1px solid black;*/
             }
+            .paired img {visibility: visible;}
     </style>
   </head>
   <body>
@@ -78,7 +80,14 @@
         var num_of_tiles = 12;
 
         //assign the items that are pairs (make sure to have half of the number of tiles)
-        var pairs = ['marcus','maurya','erik','deepak','abe','becca'];
+        var pairs = [
+          { name: 'marcus', img: 'http://lorempixel.com/output/city-q-c-146-146-4.jpg'},
+          { name: 'maurya', img: 'http://lorempixel.com/output/sports-q-c-146-146-1.jpg'},
+          { name: 'erik',   img: 'http://lorempixel.com/output/food-q-c-146-146-10.jpg'},
+          { name: 'deepak', img: 'http://lorempixel.com/output/cats-q-c-146-146-10.jpg'},
+          { name: 'abe',    img: 'http://lorempixel.com/output/animals-q-c-146-146-10.jpg'},
+          { name: 'becca',  img: 'http://lorempixel.com/output/nature-q-c-146-146-3.jpg'}
+        ];
 
         //create places to store the first-clicked of two tiles
         var first_clicked = null,
@@ -99,10 +108,15 @@
       for (var i = 0; i < num_of_tiles; i++) {
         //pick a pairing for each tile to hide
         var pick_pair = pairs[i % 6];  //TODO: random selection in the set
+
         //create the unique ID for each tile, to tell them apart
         var id = "tile-" + i;
-        //create our markup we're going to insert for each tile
-        var markup = '<li class="tile" id="' + id + '" data-type="' + pick_pair + '"></li>';
+        
+        //create the markup for our custom image 
+        var background_image = '<img src="' + pick_pair.img + '" />';
+        
+        //create our markup we're going to insert for each tile, adding in the image
+        var markup = '<li class="tile" id="' + id + '" data-type="' + pick_pair.name + '">' + background_image + '</li>';
 
         //append each list item to our board's unordered-list tag
         board.append(markup);
@@ -118,12 +132,12 @@
         //.on('hover') for personalization effects
       tiles.on('click', function() {
         //send the currently clicked tile to our pair-tester
-        //CURRIC: handle this for them
+        //CURRIC: we'd provide this handler for them
         test_for_pairs($(this));
       });
 
       function test_for_pairs(tile) {
-        //console.log('tile:',tile);
+        //console.log('tile:',tile); //CURRIC: do the students know console.logging?
 
         //ask for clicked tile's ID
         var tile_id = tile.attr('id');
