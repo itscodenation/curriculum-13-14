@@ -53,3 +53,10 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 [Lesson 19	ATM ](lessons/19-20_atm)- Introduction to Hashes and Functions
 
 [Lesson 20	ATM ](lessons/19-20_atm)- Introduction to Hashes and Functions
+
+####Second Semester
+[Project 1 : Memory Lesson Outline](https://docs.google.com/document/d/1mXCYjycY4xutOv_IrqyLP-HeRo9dXXXjKlrkOrskGcs/edit?usp=sharing) 
+[Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Memory)
+
+####Supplemental Lessons
+[Please click here to view supplemental lessons](https://github.com/ScriptEdcurriculum/curriculum/tree/master/Resources)
