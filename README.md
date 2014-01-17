@@ -58,5 +58,9 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 [Project 1 : Memory Lesson Outline](https://docs.google.com/document/d/1mXCYjycY4xutOv_IrqyLP-HeRo9dXXXjKlrkOrskGcs/edit?usp=sharing) 
 [Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Memory)
 
+[Snake]()
+[Robot Unit]()
+[Bear Getting Out of Fire]()
+
 ####Supplemental Lessons
 [Please click here to view supplemental lessons](https://github.com/ScriptEdcurriculum/curriculum/tree/master/Resources)
