@@ -59,7 +59,9 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 [Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Memory)
 
 [Snake]()
+
 [Robot Unit]()
+
 [Bear Getting Out of Fire]()
 
 ####Supplemental Lessons
