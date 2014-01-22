@@ -56,7 +56,8 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 
 ####Second Semester
 [Project 1 : Memory Lesson Outline](https://docs.google.com/document/d/1mXCYjycY4xutOv_IrqyLP-HeRo9dXXXjKlrkOrskGcs/edit?usp=sharing) 
-[Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Memory)
+
+[Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
 [Snake]()
 
