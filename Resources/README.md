@@ -6,7 +6,9 @@
 
 [Resource List for Volunteers (Additional Lessons, teaching tools, etc.)](https://github.com/ScriptEdcurriculum/curriculum/blob/master/Resources/resource_list_for_volunteers.md)
 
-[New Volunteer Training Presentation 2013](https://drive.google.com/file/d/0B2fF2axUr9M_WUNWcUExYjNCWXc/edit?usp=sharing)
+[New Volunteer Training Presentation 2013 Slides -Keynote](https://drive.google.com/file/d/0B2fF2axUr9M_WUNWcUExYjNCWXc/edit?usp=sharing)
+
+[New Volunteer Training Presentation 2013 Slides - Powerpoint](https://drive.google.com/file/d/0B2fF2axUr9M_TXZieEw4Q09TSVU/edit?usp=sharing)
 
 ###Supplemental Lessons from Fall 2013
 [Brooklyn International High School Additional Lessons - Fall 2013](https://docs.google.com/document/d/1yI1T7j2k14i-XEMLPQN3BdFtilLr8Za6ogpyHSSJW7Q/edit?usp=sharing)
