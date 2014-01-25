@@ -1,0 +1,54 @@
+<html>
+<canvas id="game" width="400" height="400"></canvas>
+<script>
+// globals
+var NBLOCKS=40;
+var canvas=document.getElementById('game');
+var ctx=canvas.getContext('2d');
+var gamestate={
+  direction:[1,0],
+  blocks:[[0,0],[1,0],[2,0]],
+};
+
+function draw_block(block){
+  // helper for draw_snake
+  var w=ctx.canvas.width,h=ctx.canvas.height;
+  var x=block[0],y=block[1];
+  ctx.fillStyle='#f0f';
+  if (x>=NBLOCKS || y>=NBLOCKS) throw "bad block coordinate";
+  var dx=w/NBLOCKS,dy=h/NBLOCKS;
+  ctx.fillRect(x*dx,y*dy,dx-1,dy-1);
+}
+function draw_snake(blocks){
+  // takes an array of blocks and draws them. each block is a 2d coordinate [x,y].
+  for (var i=0;i<blocks.length;++i){
+    draw_block(blocks[i]);
+  }
+}
+function update_snake(){
+  var blocks=gamestate.blocks;
+  blocks=blocks.slice(1);
+  var last=blocks[blocks.length-1];
+  var d=gamestate.direction;
+  var next=[last[0]+d[0],last[1]+d[1]];
+  blocks.push(next);
+  gamestate.blocks=blocks;
+}
+function clear(){
+  // this clears the game screen. call it at the beginning of every frame
+  var w=ctx.canvas.width,h=ctx.canvas.height;
+  ctx.fillStyle="#0f0";
+  ctx.fillRect(0,0,w,h);
+  ctx.strokeStyle="black";
+  ctx.strokeRect(0,0,w,h);
+}
+function onframe(){
+  clear();
+  update_snake();
+  draw_snake(gamestate.blocks);
+}
+
+// one-time setup
+setInterval(onframe,100);
+</script>
+</html>

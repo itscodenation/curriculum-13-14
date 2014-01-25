@@ -1,0 +1,30 @@
+<html>
+<canvas id="game" width="400" height="400"></canvas>
+<script>
+// globals
+var NBLOCKS=40;
+var canvas=document.getElementById('game');
+var ctx=canvas.getContext('2d');
+
+function draw_block(block){
+  // helper for draw_snake
+  throw "fill this in";
+}
+function clear(){
+  // this clears the game screen. call it at the beginning of every frame
+  var w=ctx.canvas.width,h=ctx.canvas.height;
+  ctx.fillStyle="#0f0";
+  ctx.fillRect(0,0,w,h);
+  ctx.strokeStyle="black";
+  ctx.strokeRect(0,0,w,h);
+}
+function draw(){
+  // gets called every frame
+  clear();
+  draw_block([0,0]);
+  draw_snake(gamestate.blocks);
+}
+
+draw();
+</script>
+</html>
