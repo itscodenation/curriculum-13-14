@@ -7,7 +7,6 @@ var canvas=document.getElementById('game');
 var ctx=canvas.getContext('2d');
 
 function draw_block(block){
-  // helper for draw_snake
   throw "fill this in";
 }
 function clear(){
@@ -22,7 +21,6 @@ function draw(){
   // gets called every frame
   clear();
   draw_block([0,0]);
-  draw_snake(gamestate.blocks);
 }
 
 draw();
