@@ -59,7 +59,7 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 
 [Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
 
-[Snake]()
+[Snake](https://github.com/ScriptEdcurriculum/curriculum/tree/snake/lessons/Snake)
 
 [Robot Unit]()
 
