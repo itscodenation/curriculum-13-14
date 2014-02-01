@@ -4,7 +4,7 @@
     <title>Memory Game - Sample Program</title>
     <style type="text/css">
       /*CONVENTIONS followed here
-      -- alphabetical order of properties to help find duplicates
+      -- alphabetical order of properties to help find duplicates, except width/height
       -- sample for short-hand CSS declarations but args are currently long-hand
       -- hard-coded widths and heights (for now), based on a 12-tile board
       */
@@ -12,11 +12,23 @@
         background-color: #D3E3F5;
         font-family: Arial, sans-serif;
         color: darkgrey;
-        margin: 0;
-        padding: 10px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+          /*OR margin: 0px 0px 0px 0x;*/
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+          /*OR padding: 0px 0px 0px; */
+          /*OR padding: 10x;*/
       }
         h1 {
           color: tomato;
+          text-align: center;
+        }
+        h2 {
           text-align: center;
         }
         #game_board {
@@ -24,11 +36,16 @@
           border-style: solid;
           border-width: 2px; 
             /*OR border: 2px soild tomato;*/
-          height: 450px;
-          margin: 0 auto;
-          padding: 0;
+          box-shadow: -5px -5px 5px rgba(0,0,0,0.15);
+          margin-top: 0px;
+          margin-right: auto;
+          margin-bottom: 0px;
+          margin-left: auto;
+            /*OR margin: 0 auto;*/
+          padding: 0px 0px 0px 0px;
           text-align: center; 
-          width: 600px; 
+          width: 816px; 
+          height: 612px;
         }
           .tile {
             background-color: white;
@@ -38,11 +55,14 @@
             border-width: 2px; 
               /*OR border: 1px soild peachpuff;*/
             display: inline-block;
-            height: 146px;
             vertical-align: top;
-            width: 146px; 
+            width: 200px; 
+            height: 200px;
           }
-            .tile img {visibility: hidden;}
+            .tile img {
+              visibility: hidden;
+              width: 200px; height: 200px;
+            }
             .tile:hover {
               background-color: orange;
               border-color: darkorange;
@@ -67,173 +87,185 @@
     </style>
   </head>
   <body>
-    <h1>Memory!</h1>
+    <h1>Memory</h1>
+    <h2>Click to begin!</h2>
     <ul id="game_board"></ul>
   </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() { //CURRIC: doc.ready may be too abstract to teach here?
-      console.log('Game ready to play!');
+    //IE9+, or use jQuery's $(document).ready(function() {...});
+    document.addEventListener('DOMContentLoaded', function(){
+      console.log('Your Memory game is ready to play!');
 
       //store key things
-        //help us know how many tiles to draw
-        var num_of_tiles = 12;
+      //how many tiles to draw
+      var numberOfTiles = 12;
 
-        //assign the items that are pairs (make sure to have half of the number of tiles)
-        var pairs = [
-          { name: 'marcus', img: 'http://lorempixel.com/output/city-q-c-146-146-4.jpg'},
-          { name: 'maurya', img: 'http://lorempixel.com/output/sports-q-c-146-146-1.jpg'},
-          { name: 'erik',   img: 'http://lorempixel.com/output/food-q-c-146-146-10.jpg'},
-          { name: 'deepak', img: 'http://lorempixel.com/output/cats-q-c-146-146-10.jpg'},
-          { name: 'abe',    img: 'http://lorempixel.com/output/animals-q-c-146-146-10.jpg'},
-          { name: 'becca',  img: 'http://lorempixel.com/output/nature-q-c-146-146-3.jpg'}
-        ];
+      //our possible matches for pairs (be sure to have at least half the number of tiles)
+      var possibleMatches = [
+        { name: 'a', img: 'http://lorempixel.com/output/abstract-q-c-250-250-1.jpg'},
+        { name: 'b', img: 'http://lorempixel.com/output/animals-q-c-250-250-7.jpg'},
+        { name: 'c', img: 'http://lorempixel.com/output/fashion-q-c-250-250-1.jpg'},
+        { name: 'd', img: 'http://lorempixel.com/output/technics-q-c-250-250-7.jpg'},
+        { name: 'e', img: 'http://lorempixel.com/output/nature-q-c-250-250-2.jpg'},
+        { name: 'f', img: 'http://lorempixel.com/output/city-q-c-250-250-10.jpg'},
+        { name: 'g', img: 'http://lorempixel.com/output/food-q-c-250-250-8.jpg'},
+        { name: 'h', img: 'http://lorempixel.com/output/business-q-c-250-250-1.jpg'},
+        { name: 'i', img: 'http://lorempixel.com/output/fashion-q-c-250-250-10.jpg'}
+      ];
 
-        //create places to store the first-clicked of two tiles
-        var first_clicked = null,
-            second_clicked = null;
+      //create places to store the first-clicked of two tiles
+      var firstClicked = null;
+      var secondClicked = null;
 
-        //store how many pairs we have
-        var count_of_paired = 0;
+      //store how many pairs we have
+      var successfulMatches = 0;
 
-        //store the class we'll be adding and removing to tiles to show they're flipped over
-        var flipped_class = "flipped";
-        //store the class we'll add when we find a pair
-        var paired_class = "paired";
-        
-        //find the board in our markup and save a reference to it here in JS
-        var board = $('#game_board');
+      //store the class we'll be adding and removing to tiles to show they're flipped over
+      var flippedClass = "flipped";
+      //store the class we'll add when we find a pair
+      var pairedClass = "paired";
+      
+      //find the board in our markup and save a reference to it here in JS
+      var board = document.querySelectorAll('#game_board');
+
+      //save a pointer to our instructions area
+      var instructions = document.querySelectorAll('h2');
       
       //add each tile to the board up to our limit
-      for (var i = 0; i < num_of_tiles; i++) {
+      for (var i = 0; i < numberOfTiles; i++) {
         //pick a pairing for each tile to hide
-        var pick_pair = pairs[i % 6];  //TODO: random selection in the set
+        //TODO: random assignment within the possible matches
+        var randomPairing = possibleMatches[i % (numberOfTiles / 2)];
 
         //create the unique ID for each tile, to tell them apart
-        var id = "tile-" + i;
+        var assignedMatch = "tile-" + i;
         
         //create the markup for our custom image 
-        var background_image = '<img src="' + pick_pair.img + '" />';
+        var backgroundImage = '<img src="' + randomPairing.img + '" />';
         
         //create our markup we're going to insert for each tile, adding in the image
-        var markup = '<li class="tile" id="' + id + '" data-type="' + pick_pair.name + '">' + background_image + '</li>';
+        var markup = '<li class="tile" id="' + assignedMatch + '" data-type="' + randomPairing.name + '">' + backgroundImage + '</li>';
 
         //append each list item to our board's unordered-list tag
-        board.append(markup);
+        $(board).append(markup);  //could use board.appendChild() but its a bit harder
       };
 
       //*after* adding our markup, find our newly added tiles
-      var tiles = board.find('.tile'); //CURRIC: move away from jQuery with document.querySelector()?
-
-      var all_tiles = $('.tile'); //CURRIC: or document.querySelector to stay outside jQuery, or board.find() to limit DOM scope...?
+      //CURRIC: sticking with jQuery here, due to event-binding syntax, next
+      var allTiles = $(board).find('.tile');
 
       //watch for click-events on each tile so it tell us its ID when clicked
-        //this could be just .click(), too, but .on('click') could open up customization options like 
-        //.on('hover') for personalization effects
-      tiles.on('click', function() {
-        //send the currently clicked tile to our pair-tester
-        //CURRIC: we'd provide this handler for them
-        test_for_pairs($(this));
+      //CURRIC: using jQuery to handle alternate browser versions of event-handlers, here
+      $(allTiles).on('click', function() {
+        testMatches($(this));
       });
 
-      function test_for_pairs(tile) {
-        //console.log('tile:',tile); //CURRIC: do the students know console.logging?
+      function testMatches(tile) {
 
         //ask for clicked tile's ID
-        var tile_id = tile.attr('id');
+        var tileID = tile.attr('id');
 
         //ask for clicked tile's pairing
-        var current_type = tile.attr('data-type'); //CURRIC: use .data('type'), or does that bury the learning goal in jQuery's aliases?
+        var currentType = tile.attr('data-type');
 
-        //collect a reference to all the tiles
+        instructions[0].innerHTML = "Checking...<br />";
         
-        //record clicked tiles if they aren't already set
-          //CURRIC: rather than testing against null, perhaps zero?
-        if (first_clicked === null) {
-          first_clicked = current_type;
-        } else if (second_clicked === null) {
-          second_clicked = current_type;
+        //clear our record of the clicked tiles
+        if (firstClicked === null) {
+          firstClicked = currentType;
+        } else if (secondClicked === null) {
+          secondClicked = currentType;
         }
 
         //don't allow a third tile if something goes wrong
-        //TODO: needed or just a bug?
-        if (check_we_have_two_selections() && current_type !== second_clicked) {
+        if (confirmTwoPicks() && currentType !== secondClicked) {
           alert('Two tiles already flipped, please unclick one of them to select a new tile.');
           return;
         }
 
         //if already flipped, un-flip and reset our counters
-        if (tile.hasClass(flipped_class)) {
-          tile.removeClass(flipped_class);
-          if (current_type == first_clicked) {
-            first_clicked = null;
+        if (tile.hasClass(flippedClass)) {
+
+          //unflip current selections
+          tile.removeClass(flippedClass);
+          
+          //reset our watchers to nothing
+          if (currentType == firstClicked) {
+            firstClicked = null;
           }
-          if (current_type === second_clicked) {
-            second_clicked = null;
+          if (currentType === secondClicked) {
+            secondClicked = null;
           }
+        
         } else {
           //add class to mark flipped tile
-          tile.addClass(flipped_class);
+          tile.addClass(flippedClass);
         }
 
-        //debugging logging, so we can see things work
-        // console.log(tile_id, first_clicked, second_clicked);
-
-        if (check_we_have_two_selections() && first_clicked === second_clicked) {
-          is_a_pair();
-        } else if (check_we_have_two_selections()) {
-          not_a_pair();
+        //CURRIC:  good place to describe == versus === in evaluating conditions in JS
+        if (confirmTwoPicks() && firstClicked === secondClicked) {
+          isMatch();
+        } else if (confirmTwoPicks()) {
+          //delay so we can see second selection, otherwise it executes too fast to see the image
+          setTimeout(function() {
+            noMatch();
+          }, 800);
         } else {
-          //not enough tiles selected yet
+          //not enough tiles selected yet, do nothing so players can keep clicking
         }
       }
 
-      function is_a_pair() {
-        alert('YOU FOUND A PAIR!\nCongratulations.');
+      function isMatch() {
+        instructions[0].innerHTML = 'YOU FOUND A PAIR!<br />Congratulations.';
 
         //mark pair
-        var already_flipped = $('.'+flipped_class); //document.querySelector
-        already_flipped.addClass(paired_class);
+        //CURRIC: could be document.querySelector but then the addClass/removeClass gets complicated
+        var alreadyFlipped = $('.'+flippedClass);
+        alreadyFlipped.addClass(pairedClass);
 
         //clear flipped class
-        all_tiles.removeClass(flipped_class);
+        allTiles.removeClass(flippedClass);
 
         //clear our saved, flipped tiles
-        clear_clicked();
+        clearClicked();
 
         //increment counter
-        count_of_paired += 2;
-        console.log('current count_of_paired:',count_of_paired);
+        successfulMatches += 2;
+        console.log('current matches:',successfulMatches);
 
-        check_for_winners();
+        checkForWinners();
       }
 
-      function not_a_pair() {
-        if (confirm('SORRY! \n Not a pair.\n Do you want to continue?')) {
-          clear_clicked();
-          all_tiles.removeClass(flipped_class);
-        } else {
-          $('h1').text('Game Over! Thank you for playing.');
+      function noMatch() {
+        instructions[0].innerHTML = 'SORRY!<br />Not a pair.';
+        clearClicked();
+        allTiles.removeClass(flippedClass);
+      }
+
+      function checkForWinners() {
+        if (successfulMatches === numberOfTiles) {
+          instructions[0].innerHTML = 'YOU WIN! Congratulations.<br />(Refresh to play again.)';
           board.remove();
           return;
         }
       }
 
-      function check_for_winners() {
-        if (count_of_paired === num_of_tiles) {
-          $('h1').text('YOU WIN! Congratulations. (Refresh to play again.)');
-          board.remove();
-          return;
-        }
+      //CURRIC:  this is a fairly advanced concept, worth spending time
+      function confirmTwoPicks() {
+        return firstClicked !== null && secondClicked !== null;
       }
 
-      function check_we_have_two_selections() {
-        return first_clicked !== null && second_clicked !== null;
+      function clearClicked() {
+        firstClicked = null;
+        secondClicked = null;
       }
 
-      function clear_clicked() {
-        first_clicked = null;
-        second_clicked = null;
+      //nothing uses this right now...when should it be called?
+      function quit() {
+        instructions[0].innerHTML = 'Game Over!<br />Thank you for playing.';
+        board.remove();
+        return;
       }
 
     });
