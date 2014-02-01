@@ -24,7 +24,7 @@ Read through https://docs.c9.io/creating_new_workspace.html
 
 Click on "Create new workspace" in the upper left
 
-Name your workspace "january_13". Click on the orange "HTML5" button.
+Name your workspace "SOMETHING". Click on the orange "HTML5" button. (Teachers, decide how you want to organize workspaces and add your own workspace names here.)
 
 Read through https://docs.c9.io/ide_overview.html
 
