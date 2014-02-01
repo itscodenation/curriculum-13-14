@@ -59,6 +59,7 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 
 [Project 1: Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
+[Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
 [Snake]()
 
 [Robot Unit]()
