@@ -9,6 +9,8 @@ ScriptEd Foundations Curriculum
 
 [Student Rubric](http://bit.ly/ScriptEdCurriculum)
 
+[Supplemental Lessons and Activities](https://github.com/ScriptEdcurriculum/curriculum/tree/master/Resources)
+
 ######First Semester
 Please note -- for additional resources on each topic, please visit the Teacher Resources link of this repository.  You will find alternate and supplemental lessons there!
 
