@@ -61,6 +61,8 @@ Please note -- for additional resources on each topic, please visit the Teacher 
 ScriptEd's second semester curriculum move students from small and short projects to longer term projects.  Students will work in teams and go through the design process for each project. All classes should complete the memory game lesson (5-6 weeks), and then choose which other projects the class wants to do through the remainder of the year.
 
 Please keep in mind that students must acheive atleast an "Effective" proficiency on [ScriptEd's rubric](bit.ly/ScriptEdCurriculum) to qualify for an internship.  
+
+
 [Unit 1 : Memory Lesson Outline](https://docs.google.com/document/d/1mXCYjycY4xutOv_IrqyLP-HeRo9dXXXjKlrkOrskGcs/edit?usp=sharing) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
 [Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
