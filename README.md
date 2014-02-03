@@ -9,6 +9,8 @@ ScriptEd Foundations Curriculum
 
 [Student Rubric](http://bit.ly/ScriptEdCurriculum)
 
+[Lesson Planning Template](https://drive.google.com/file/d/0B_tY-BUtXSQEaTMzYWVKNnpSNTlYWUs0clBOU1VqT1BUSWpV/edit?usp=sharing)
+
 [Supplemental Lessons and Activities](https://github.com/ScriptEdcurriculum/curriculum/tree/master/Resources)
 
 ######First Semester
