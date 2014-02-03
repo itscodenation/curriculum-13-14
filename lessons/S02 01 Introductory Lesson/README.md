@@ -1,3 +1,5 @@
+##Semester 2, Unit 1: Memory Game
+
 [Click here for Lesson Plan Outlines for this 4-6 week unit](https://docs.google.com/document/d/1mXCYjycY4xutOv_IrqyLP-HeRo9dXXXjKlrkOrskGcs/edit?usp=sharing)
 
 [Click here for Example Memory Game Program](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/S02%2001%20Introductory%20Lesson/Memory)
