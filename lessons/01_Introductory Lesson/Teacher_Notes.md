@@ -11,7 +11,7 @@ Students are required to log-in to class whenever they attend.
 
 - Classes will be held twice a week. 
 - Students will learn the fundamentals of HTML, CSS, and Javascript
-- The point of the club is to prepare students for internships with technology firms over the summer. Students have interened at About.com, Thrillist and Content.ly, and we'll be in even more companies this summer.
+- The point of the club is to prepare students for internships with technology firms over the summer. Students have interned at About.com, Thrillist and Content.ly, and we will have opportunities in even more companies this summer.
 - Not all students will be selected for internships.  Students must attend class and work hard if they want to be selected.
 - It's important for students to take this seriously and not miss class. Their class participation will effect their Hackathon scores.
 - Explain to students that we will have an end of semester hackathon on May 17th (tentative). During the hackathon, students will compete in teams against other schools for prizes.  Here are some example of previous hackathon projects (Please show these to the students!): [Harlem Shake](http://scriptednyc.github.io/Hackathon/harlemshake/shake.html), [Color Block](http://scriptednyc.github.io/Hackathon/colorblock/block.html), [Memory](http://scriptednyc.github.io/Hackathon/memory/memory.html), [Chimney Run] (http://jsbin.com/uyoDufe/15), [Brooklyn-opoly](http://jsbin.com/aQOQEMOY/2/edit)
