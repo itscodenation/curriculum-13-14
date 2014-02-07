@@ -46,3 +46,9 @@ Put the following in the head tag of your HTML file:
 
     <script src="hello.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    
+##Gotchas
+
+* Workspaces take about ~15 seconds to be created. Sometimes the window has to be refreshed.
+* The free version only allows 3 workspaces. 
+* All console.log() are sent to the browser console, not the C9 one.
