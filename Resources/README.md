@@ -27,3 +27,10 @@
 
 [HTML, CSS and Beginning Javascript Jeopardy](https://jeopardylabs.com/play/scripted-jeopardy-html-css-and-javascript)
 
+###Coding Challenge Sites
+
+[CoderByte](http://coderbyte.com/)
+
+[Codewars](http://www.codewars.com)
+
+
