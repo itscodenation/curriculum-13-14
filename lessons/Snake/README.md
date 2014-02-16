@@ -11,11 +11,12 @@ Write functions to:
 * update the gamestate to make the snake move in a direction
 
 ### Day 2
+* key input and the switch statement
 * hit-testing for walls
 * apple generator
-* hit-testing for apples
 
 ### Day 3
+* hit-testing for apples
 * grow snake when an apple hits
 * hit-testing for self-intersection
 * catch-up for anyone who's behind
@@ -27,6 +28,9 @@ Write functions to:
 * [starter file](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_begin.htm) (distribute this)
 * [mid-lesson](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_middle.htm) (distribute this)
 * [answers](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_answers.htm) (for teacher reference)
+### Day 2
+* [lecture]()
+* [key input skeleton]()
 
 ## Rubric skills learned
 * Functions and program structure: students who independently write the draw_block and update_snake functions may learn something about separation of concerns. But kids who don't understand the basics of defining vs calling a function will be lost.
