@@ -10,20 +10,24 @@ var gamestate={
   blocks:[[0,0],[1,0],[2,0]],
 };
 
-function draw_block(block){
+function draw_block(block,color){
   // helper for draw_snake
   var w=ctx.canvas.width,h=ctx.canvas.height;
   var x=block[0],y=block[1];
-  ctx.fillStyle='#f0f';
+  ctx.fillStyle=color;
   if (x>=NBLOCKS || y>=NBLOCKS) throw "bad block coordinate";
   var dx=w/NBLOCKS,dy=h/NBLOCKS;
   ctx.fillRect(x*dx,y*dy,dx-1,dy-1);
 }
-function draw_snake(blocks){
+function block_in_range(block){
+  // returns bool for whether block is onscreen
+  var x=block[0],y=block[1];
+  return x>=0 && y>=0 && x<NBLOCKS-1 && y<NBLOCKS-1;
+}
+function draw_blocks(blocks,color){
   // takes an array of blocks and draws them. each block is a 2d coordinate [x,y].
-  for (var i=0;i<blocks.length;++i){
-    draw_block(blocks[i]);
-  }
+  for (var i=0;i<blocks.length;++i)
+    draw_block(blocks[i],color);
 }
 function update_snake(){
   var blocks=gamestate.blocks;
@@ -34,21 +38,60 @@ function update_snake(){
   blocks.push(next);
   gamestate.blocks=blocks;
 }
-function clear(){
+function fill(color){
   // this clears the game screen. call it at the beginning of every frame
   var w=ctx.canvas.width,h=ctx.canvas.height;
-  ctx.fillStyle="#0f0";
+  ctx.fillStyle=color;
   ctx.fillRect(0,0,w,h);
   ctx.strokeStyle="black";
   ctx.strokeRect(0,0,w,h);
 }
+function clear(){
+  fill('#0f0');
+}
 function onframe(){
-  clear();
-  update_snake();
-  draw_snake(gamestate.blocks);
+  if (!block_in_range(gamestate.blocks[gamestate.blocks.length-1]))
+    gamestate.failed=true;
+  if (gamestate.failed)
+    fill('#f00');
+  else {
+    clear();
+    update_snake();
+    draw_blocks(gamestate.blocks,'#f0f');
+    draw_blocks(gamestate.apples,'#000');
+  }
 }
 
 // one-time setup
 setInterval(onframe,100);
+
+function keyup(event){
+  switch(event.keyCode){
+  case 38:
+    gamestate.direction = [0,-1]; // up
+    break;
+  case 40:
+    gamestate.direction = [0,1]; // down
+    break;
+  case 37:
+    gamestate.direction = [-1,0]; // left
+    break;
+  case 39:
+    gamestate.direction = [1,0]; // right
+    break;
+  }
+}
+document.onkeyup=keyup;
+
+function make_apple(){
+  var x=Math.round(Math.random()*NBLOCKS),y=Math.round(Math.random()*NBLOCKS);
+  return [x,y];
+}
+function make_apples(N){
+  gamestate.apples = [];
+  for (var i=0;i<N;++i)
+    gamestate.apples.push(make_apple());
+}
+make_apples(2);
 </script>
 </html>
