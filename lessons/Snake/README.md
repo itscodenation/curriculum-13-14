@@ -23,14 +23,17 @@ Write functions to:
 * add levels for anyone who's ahead (this step is unstructured, students should figure it out on their own)
 
 ## Files
+
 ### Day 1
 * [lecture](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_lecture.md)
 * [starter file](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_begin.htm) (distribute this)
 * [mid-lesson](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_middle.htm) (distribute this)
 * [answers](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day1_answers.htm) (for teacher reference)
+
 ### Day 2
-* [lecture]()
-* [key input skeleton]()
+* [lecture](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day2_lecture.md)
+* [key input skeleton](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day2_skeleton.htm)
+* [answers](https://github.com/ScriptEdcurriculum/curriculum/blob/snake/lessons/Snake/day2_answers.htm)
 
 ## Rubric skills learned
 * Functions and program structure: students who independently write the draw_block and update_snake functions may learn something about separation of concerns. But kids who don't understand the basics of defining vs calling a function will be lost.
