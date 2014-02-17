@@ -14,7 +14,10 @@
 
 [JavaScript Concept Review - Handout] (https://docs.google.com/a/scripted.org/document/d/1PJsNEumJU1Qe32LVZWgNkecyCt1LXFIoYLhVn1hm4Zc/edit#)
 
-[How to Collect & Use Student Data -- sample data repository from BIHS 2013-2014] (https://docs.google.com/a/scripted.org/spreadsheet/ccc?key=0ApUXiQO2EAQadFoxRFpJQjBUU2RGQXdPX0pjYnRpMmc&usp=drive_web#gid=2)
+[How to Collect & Use Student Data -- sample data repository from BIHS 2013-2014]  (https://docs.google.com/a/scripted.org/spreadsheet/ccc?key=0ApUXiQO2EAQadFoxRFpJQjBUU2RGQXdPX0pjYnRpMmc&usp=drive_web#gid=2)
+
+[Sample JSBin Submission Form -- for collecting student work](https://docs.google.com/a/scripted.org/forms/d/1VBpKPWOAvvK7o7ujlrXBgGahPkSutjYh9us17gYg2PE/edit)
+
 
 ###Supplemental Lessons from Fall 2013
 [Supplemental Lesson on Booleans and While Loops - By HVA Team](https://docs.google.com/presentation/d/1dXAmM24Vt7ULixxW4P_tlgI_Vi7nrDqlqP-_8WGIIyM/edit?usp=sharing)
