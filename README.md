@@ -65,13 +65,21 @@ ScriptEd's second semester curriculum move students from small and short project
 Please keep in mind that students must acheive atleast an "Effective" proficiency on [ScriptEd's rubric](bit.ly/ScriptEdCurriculum) to qualify for an internship.  
 
 
+<<<<<<< HEAD
 [Memory Unit Outline](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
+=======
+[Memory Lesson Unit 1 for all studnets](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
+>>>>>>> e5dea36dfb7717c14f718857955343693187e4b9
 
 [Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
 
 [Snake](https://github.com/ScriptEdcurriculum/curriculum/tree/snake/lessons/Snake)
 
+<<<<<<< HEAD
 [Flickr Map Unit](https://github.com/ScriptEdcurriculum/curriculum/tree/FlickrMap/lessons/FlickrMap)
+=======
+[Flickr Map](https://github.com/ScriptEdcurriculum/curriculum/tree/FlickrMap/lessons/FlickrMap)
+>>>>>>> e5dea36dfb7717c14f718857955343693187e4b9
 
 [Robot Unit]()
 
