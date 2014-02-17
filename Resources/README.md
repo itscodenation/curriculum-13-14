@@ -22,6 +22,8 @@
 ###Supplemental Lessons from Fall 2013
 [Supplemental Lesson on Booleans and While Loops - By HVA Team](https://docs.google.com/presentation/d/1dXAmM24Vt7ULixxW4P_tlgI_Vi7nrDqlqP-_8WGIIyM/edit?usp=sharing)
 
+[Supplemental Lesson on Functions -- with challenges by HVA Team](https://googledrive.com/host/0B7fujoPk5-DdN2QwOWRSR3dkLVE/Lesson27.html)
+
 [Brooklyn International High School Additional Lessons - Fall 2013](https://docs.google.com/document/d/1yI1T7j2k14i-XEMLPQN3BdFtilLr8Za6ogpyHSSJW7Q/edit?usp=sharing)
 
 [Cristo Rey Monday / Wednesday Alternative Class - Lessons](https://drive.google.com/a/scripted.org/folderview?id=0B2fF2axUr9M_MVpIbTJkT0o5dDA&usp=sharing)
