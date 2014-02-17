@@ -4,7 +4,7 @@ This is a workaround for the two workspace limit on Cloud9. You can just use one
 This may force your hand a bit on introducing git to your students.
 
 
-This is a [how-to guide handout] (https://docs.google.com/a/scripted.org/document/d/1YMe_iMX8VEkGi3AZ2ckGMOmue7RFFL86Tz73fJKMjLo/edit) for students with instructions. 
+This is a [how-to guide] (https://docs.google.com/a/scripted.org/document/d/1YMe_iMX8VEkGi3AZ2ckGMOmue7RFFL86Tz73fJKMjLo/edit) for students with instructions. 
 
 
 
