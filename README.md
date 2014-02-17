@@ -66,9 +66,6 @@ Please keep in mind that students must acheive atleast an "Effective" proficienc
 
 [Memory Unit Outline](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
-[Memory Lesson Unit 1 for all studnets](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
-
-[Memory Lesson Unit 1 for all studnets](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
 [Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
 
