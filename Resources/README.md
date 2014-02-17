@@ -19,6 +19,8 @@
 
 [Cristo Rey Thursday / Friday Class Additional Lessons](https://drive.google.com/a/scripted.org/folderview?id=0B2fF2axUr9M_ODdWTmsyelRNVms&usp=sharing)
 
+[Richard Green Additional Lessons](https://drive.google.com/a/scripted.org/folderview?id=0B84oBIfKfkZ5d1pTWmNmNi05akU&usp=sharing#)
+
 ###Jeopardy Games
 
 [Javascript Jeopardy](https://jeopardylabs.com/play/scripted-jeopardy)
