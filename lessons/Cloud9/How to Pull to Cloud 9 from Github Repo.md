@@ -1,4 +1,4 @@
-How to Pull to Cloud 9 from a GitHup Repo (Guide for Students)
+##How to Pull to Cloud 9 from a GitHup Repo (Guide for Students)
 
 This is a workaround for the two workspace limit on Cloud9. You can just use one workspace, and have the students do a "pull" from a repo that teachers maintain that contains all the homework templates. 
 This will force your hand on introducing git to your students. 
