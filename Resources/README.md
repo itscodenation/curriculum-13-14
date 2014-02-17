@@ -10,7 +10,9 @@
 
 [New Volunteer Training Presentation 2013 Slides - Powerpoint](https://drive.google.com/file/d/0B2fF2axUr9M_TXZieEw4Q09TSVU/edit?usp=sharing)
 
-[JavaScript Concept Review - Handout ] (https://docs.google.com/a/scripted.org/document/d/1PJsNEumJU1Qe32LVZWgNkecyCt1LXFIoYLhVn1hm4Zc/edit#)
+[Grading Criteria for Programming Assignments - sample] (http://www.cs.utexas.edu/~mitra/csSpring2014/cs313/grading.html)
+
+[JavaScript Concept Review - Handout] (https://docs.google.com/a/scripted.org/document/d/1PJsNEumJU1Qe32LVZWgNkecyCt1LXFIoYLhVn1hm4Zc/edit#)
 
 [How to Collect & Use Student Data -- sample data repository from BIHS 2013-2014] (https://docs.google.com/a/scripted.org/spreadsheet/ccc?key=0ApUXiQO2EAQadFoxRFpJQjBUU2RGQXdPX0pjYnRpMmc&usp=drive_web#gid=2)
 
