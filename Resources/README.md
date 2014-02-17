@@ -10,6 +10,8 @@
 
 [New Volunteer Training Presentation 2013 Slides - Powerpoint](https://drive.google.com/file/d/0B2fF2axUr9M_TXZieEw4Q09TSVU/edit?usp=sharing)
 
+[JavaScript Concept Review - Handout ] (https://docs.google.com/a/scripted.org/document/d/1PJsNEumJU1Qe32LVZWgNkecyCt1LXFIoYLhVn1hm4Zc/edit#)
+
 ###Supplemental Lessons from Fall 2013
 [Supplemental Lesson on Booleans and While Loops - By HVA Team](https://docs.google.com/presentation/d/1dXAmM24Vt7ULixxW4P_tlgI_Vi7nrDqlqP-_8WGIIyM/edit?usp=sharing)
 
