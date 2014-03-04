@@ -51,6 +51,8 @@ Explanation: An API, or Application Programming Interface, is a way to access th
 
 6. In the final step, we call the function in the body tag so that the map will load when the page is done loading. ```<body onload="loadMap()">```
 
-#NOTE: Do we want to pause here and discuss objects/object literal notation??
+## Exercises
 
+- Find the latitude and longitude of your school and make the map show a marker at that location.
+- Find the latitude and longitude of your home and make the map show a marker at the location.
 
