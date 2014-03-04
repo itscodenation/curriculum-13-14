@@ -64,12 +64,16 @@ ScriptEd's second semester curriculum move students from small and short project
 
 Please keep in mind that students must acheive atleast an "Effective" proficiency on [ScriptEd's rubric](bit.ly/ScriptEdCurriculum) to qualify for an internship.  
 
+[Memory Unit Outline](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
-[Unit 1 : Memory Lesson Outline](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/README.md) AND  [Memory Sample Program](https://github.com/ScriptEdcurriculum/curriculum/blob/master/lessons/S02%2001%20Introductory%20Lesson/Memory/memory.html)
 
 [Cloud 9 Lesson](https://github.com/ScriptEdcurriculum/curriculum/tree/master/lessons/Cloud9)
 
 [Snake](https://github.com/ScriptEdcurriculum/curriculum/tree/snake/lessons/Snake)
+
+
+[Flickr Map Unit](https://github.com/ScriptEdcurriculum/curriculum/tree/FlickrMap/lessons/FlickrMap)
+
 
 [Robot Unit]()
 
